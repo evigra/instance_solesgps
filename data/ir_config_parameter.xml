@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="gpsmap.solesgps_host" model="ir.config_parameter">         
+            <field name="value">http://server_16.solesgps.com:7916</field>
+        </record>
+
+        
+        <record id="gpsmap.solesgps_user" model="ir.config_parameter"> 
+            <field name="value">solesgps</field>
+        </record>
+        <record id="gpsmap.solesgps_pass" model="ir.config_parameter"> 
+            <field name="value">admin</field>
+        </record>
+        <record id="gpsmap.solesgps_db" model="ir.config_parameter"> 
+            <field name="value">server_16</field>
+        </record>
+        
+        <record id="solesgps_sync_devices" model="ir.config_parameter">
+            <field name="key">gpsmap.sync_devices</field>
+            <field name="value" eval="True"/>
+        </record>    
+    </data>
+</odoo>
+
+
+
+
