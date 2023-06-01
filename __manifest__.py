@@ -37,6 +37,8 @@ Main Features
         
         'data/res_company_data.xml',
         'data/res_users.xml',
+        'data/gps_geofences.xml',
+
         'data/gps_devices.xml',
         'data/fleet_vehicle.xml',
         'data/gps_mirror.xml',

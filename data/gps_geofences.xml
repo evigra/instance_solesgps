@@ -1,0 +1,51 @@
+<odoo>
+    <data noupdate="1">
+        <record id="geofences_michoacana_matriz" model="gps_geofences"> 
+            <field name="name">Matriz</field>
+            <field name="description">Matriz Cremeria La Michoacana</field>
+            <field name="area">-103.71771062032774 19.240499842613143, -103.71699178831174 19.241477342501884, -103.71796811239317 19.241477342501884, -103.7186762155731 19.24108229143424, -103.71771062032774 19.240499842613143</field>
+            <field name="attributes"></field>
+            <field name="color">green</field>
+            <field  name="company_ids" eval="[(6,0,[
+                ref('instance_solesgps.company_michoacana')
+            ])]"/>
+        </record>
+        <record id="geofences_michoacana_pinosuarez" model="gps_geofences"> 
+            <field name="name">Pino Suarez</field>
+            <field name="description">Sucursal Pino Suarez</field>
+            <field name="area">-103.73248395605965 19.24995298471366, -103.73184176821508 19.251108022845862, -103.7308734907607 19.250576103882207, -103.73160305161275 19.24941280671822, -103.73248395605965 19.24995298471366</field>
+            <field name="attributes"></field>
+            <field name="color">green</field>
+            <field  name="company_ids" eval="[(6,0,[
+                ref('instance_solesgps.company_michoacana')
+            ])]"/>
+        </record>
+        <record id="geofences_michoacana_benitojuarez" model="gps_geofences"> 
+            <field name="name">Benito Juarez</field>
+            <field name="description">Sucursal Benito Juarez</field>
+            <field name="area">-103.73958834071662 19.264797797238607, -103.73896606822517 19.265932136306684, -103.73986729045417 19.266489174939558, -103.74059148688819 19.265405479858373, -103.73958834071662 19.264797797238607</field>
+            <field name="attributes"></field>
+            <field name="color">green</field>
+            <field  name="company_ids" eval="[(6,0,[
+                ref('instance_solesgps.company_michoacana')
+            ])]"/>
+        </record>
+
+        <record id="geofences_pto_manzanillo" model="gps_geofences"> 
+            <field name="name">Pto Manzanillo</field>
+            <field name="description">Puerto de Manzanillo</field>
+            <field name="area">-104.29846688821155 19.05740306835261, -104.29366036965686 19.058782212668415, -104.29074417448432 19.076340147813408, -104.29342638349921 19.076968804970445, -104.29271828031928 19.07940229405631, -104.29479967451483 19.078449181756202, -104.2961849549532 19.082090421379633, -104.29800885708333 19.08178624213523, -104.29474729092122 19.072514785083232, -104.3003262856722 19.071419673896777, -104.30482818897082 19.085365695424695, -104.29696853515412 19.08724515394912, -104.2949300563028 19.08738709965358, -104.29354603645112 19.086545562627933, -104.28712442202503 19.078663573188994, -104.28758576197559 19.078308690007837, -104.28757503313953 19.07684859120728, -104.2868132857793 19.076808032723577, -104.28637340350086 19.077142639917202, -104.28493573946888 19.07503358934233, -104.2844529418462 19.073319965982947, -104.2850108413213 19.071109467074535, -104.28626075072224 19.068333964879233, -104.2867757348531 19.067340228114038, -104.28943648619587 19.064744316213066, -104.29058604401736 19.058881281747173, -104.29104738396792 19.057704954193838, -104.29226802910237 19.05680472969674, -104.29809378708272 19.05546613265336, -104.3031138660016 19.055192327381892, -104.30359666362428 19.05618613695109, -104.30054967418336 19.061218864093217, -104.29846688821155 19.05740306835261</field>
+            <field name="attributes"></field>
+            <field name="color">green</field>
+            <field  name="company_ids" eval="[(6,0,[
+                ref('instance_solesgps.company_uhcam_gustavo'),
+                ref('instance_solesgps.company_mixteca'),
+                ref('instance_solesgps.company_mixteca_catalina'),
+                ref('instance_solesgps.company_uhcam'),
+                ref('instance_solesgps.company_uhcam_lucero'),
+                ref('instance_solesgps.company_uhcam')
+            ])]"/>
+        </record>
+
+    </data>    
+</odoo>
