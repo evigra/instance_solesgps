@@ -34,6 +34,7 @@ Main Features
     ],
     'data': [
         'data/ir_config_parameter.xml',
+        'data/ir_attachment.xml',
         
         'data/res_company_data.xml',
         'data/res_users.xml',
@@ -45,6 +46,7 @@ Main Features
         
         'security/security.xml',
         'views/views.xml',
+        'views/homepage.xml',
     ],
 
     'installable': True,
