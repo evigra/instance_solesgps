@@ -15,7 +15,11 @@
             <field name="city">Villa de Alvarez</field>
             <field name="state_id" ref="base.state_mx_col" />
             <field name="country_id" ref="base.mx" />
+            <field name="logo" type="base64" file="instance_solesgps/static/description/logo.png"/>            
+            <field name="logo_web" type="base64" file="instance_solesgps/static/description/logo.png"/>            
             <!--
+
+            <field name="logo" type="base64" file="l10n_ar_website_sale/static/description/icon.png"/>
             <field name="l10n_mx_edi_fiscal_regime">601</field>
             -->
         </record>
@@ -71,6 +75,10 @@
             <field name="email">lamixtecafacturacion@gmail.com</field>
             <field name="zip">28860</field>
             <field name="country_id" ref="base.mx" />
+            <!--
+                regimen simplificado de confianza
+                1 unidades    
+            -->            
         </record>
 
         <record id="company_mixteca_jesus" model="res.company">
