@@ -1,7 +1,5 @@
 <odoo>
     <data noupdate="1">
-
-
         <record id="base.main_company" model="res.company">
             <field name="name">SolesGPS</field>
             <field name="company_registry">Eduardo Vizcaino Granados</field>
@@ -15,7 +13,11 @@
             <field name="city">Villa de Alvarez</field>
             <field name="state_id" ref="base.state_mx_col" />
             <field name="country_id" ref="base.mx" />
+            <field name="logo" type="base64" file="instance_solesgps/static/description/logo.png"/>            
+            <field name="logo_web" type="base64" file="instance_solesgps/static/description/logo.png"/>            
             <!--
+
+            <field name="logo" type="base64" file="l10n_ar_website_sale/static/description/icon.png"/>
             <field name="l10n_mx_edi_fiscal_regime">601</field>
             -->
         </record>
@@ -71,6 +73,10 @@
             <field name="email">lamixtecafacturacion@gmail.com</field>
             <field name="zip">28860</field>
             <field name="country_id" ref="base.mx" />
+            <!--
+                regimen simplificado de confianza
+                1 unidades    
+            -->            
         </record>
 
         <record id="company_mixteca_jesus" model="res.company">
@@ -162,18 +168,23 @@
             <field name="country_id" ref="base.mx"/>
             <!--
                 regimen simplificado de confianza
-                3 unidades    
+                4 unidades + 2   
             -->        
         </record>
 
         <record id="company_uhcam_lucero" model="res.company">
             <field name="name">LE Servicios Especializados</field>
-            <field name="company_registry">Lucero Cisneros Lemus</field>
+            <field name="company_registry">LUCERO ISABEL CISNEROS LEMUS</field>
             <field name="vat">CILL900530MC5</field>
             <field name="phone">52 (753) 103 - 1887</field>
             <field name="email">lucerocl_0412@live.com</field>
-            <field name="zip">60982</field>
+            <field name="zip">60950</field>
             <field name="country_id" ref="base.mx" />
+            <!--
+                Personas Físicas con Actividades Empresariales y Profesionales                               
+                3 unidades    
+            -->   
+            
         </record>
 
         <record id="company_tbucio" model="res.company">
