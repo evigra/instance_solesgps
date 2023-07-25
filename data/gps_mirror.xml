@@ -37,6 +37,15 @@
                 ref('instance_solesgps.vehicle_uhcam_03')
             ])]"/>
         </record>
+        <record id="mirror_uhcam_04" model="gps_mirror"> 
+            <field name="name">UHCAM 004</field>
+            <field name="start" eval="datetime.today()"/>
+            <field name="end" eval="datetime.today() + relativedelta(weeks=1)"/>
+            <field name="company_id" ref="company_uhcam_gustavo"/>
+            <field  name="vehicle_ids" eval="[(6,0,[
+                ref('instance_solesgps.vehicle_uhcam_04')
+            ])]"/>
+        </record>
 
         <record id="mirror_uhcam_62" model="gps_mirror"> 
             <field name="name">UHCAM 062</field>

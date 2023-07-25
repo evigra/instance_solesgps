@@ -24,6 +24,13 @@
             <field name="company_id" ref="company_uhcam_gustavo"/>        
         </record>
 
+        <record id="gps_uhcam04" model="gps_devices"> 
+            <field name="name">UHCAM 04 </field>
+            <field name="uniqueid">864895036371449</field>
+            <field name="icc">8934071200003860592</field>
+            <field name="company_id" ref="company_uhcam_gustavo"/>        
+        </record>
+
         <record id="gps_uhcam12" model="gps_devices"> 
             <field name="name">UHCAM 12 </field>
             <field name="uniqueid">864180037466427</field>
