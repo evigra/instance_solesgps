@@ -1,4 +1,5 @@
-<odoo noupdate="1">
+<odoo>
+    <data noupdate="1">
         <record id="gps_uhcam01" model="gps_devices"> 
             <field name="name">UHCAM 01 </field>
             <field name="uniqueid">864895030052433</field>
@@ -256,4 +257,5 @@
             <field name="uniqueid">636847</field>
             <field name="company_id" ref="company_developer"/>        
         </record>
+    </data>
 </odoo>
