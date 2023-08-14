@@ -4,7 +4,12 @@
             <field name="name">Administrator</field>
             <field name="login">webmaster@solesgps.com</field>
             <field name="password">admin</field>
+            <!--
+            <field name="lang">&quot;es_MX&quot;</field>
+            -->
+            <field name="tz">Europe/Brussels</field>
             <field name="company_id" ref="base.main_company" />    
+            <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field  name="company_ids" eval="[(6,0,[
                 ref('base.main_company'),
                 ref('company_developer'),
@@ -22,13 +27,16 @@
                 ref('company_uhcam_gustavo'),
                 ref('company_uhcam_lucero')
             ])]"/>
+
         </record>
 
         <record id="user_proguz" model="res.users">
             <field name="name">Angel Yesenia</field>
             <field name="login">proveorguzman@outlook.com</field>        
             <field name="password"> </field>
+            <field name="tz">America/Mexico_City</field>
             <field name="company_id" ref="company_proguz" />
+            <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field  name="company_ids" eval="[(6,0,[ref('company_proguz')])]"/>
         </record>
 
@@ -36,7 +44,9 @@
             <field name="name">Cremeria la Michoacana</field>
             <field name="login">cremerialamichoacana15@gmail.com</field>        
             <field name="password"> </field>
+            <field name="tz">America/Mexico_City</field>
             <field name="company_id" ref="company_michoacana" />
+            <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field  name="company_ids" eval="[(6,0,[ref('company_michoacana')])]"/>
         </record>
 
@@ -44,7 +54,9 @@
             <field name="name">Cesar Daniel Diaz Barba</field>
             <field name="login">danieldiaz_facturacion@hotmail.com</field>        
             <field name="password"> </field>
+            <field name="tz">America/Mexico_City</field>
             <field name="company_id" ref="company_tdiaz" />
+            <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field  name="company_ids" eval="[(6,0,[ref('company_tdiaz')])]"/>
         </record>
 
@@ -52,7 +64,9 @@
             <field name="name">Gustavo</field>
             <field name="login">jeremy_1186@hotmail.com</field>        
             <field name="password"> </field>
+            <field name="tz">America/Mexico_City</field>
             <field name="company_id" ref="company_uhcam_gustavo" />
+            <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field  name="company_ids" eval="[(6,0,[ref('company_uhcam'),ref('company_uhcam_gustavo'),ref('company_uhcam_lucero')])]"/>
         </record>
 
@@ -60,7 +74,9 @@
             <field name="name">L E Lucero</field>
             <field name="login">lucerocl_0412@live.com</field>        
             <field name="password"> </field>
+            <field name="tz">America/Mexico_City</field>
             <field name="company_id" ref="company_uhcam_lucero" />
+            <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field  name="company_ids" eval="[(6,0,[ref('company_uhcam'),ref('company_uhcam_lucero')])]"/>
         </record>
 
@@ -68,7 +84,9 @@
             <field name="name">L  E Eugenia</field>
             <field name="login">eugenia.herrera.aguirre@gmail.com</field>        
             <field name="password"> </field>
+            <field name="tz">America/Mexico_City</field>
             <field name="company_id" ref="company_uhcam_lucero" />
+            <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field  name="company_ids" eval="[(6,0,[ref('company_uhcam'),ref('company_uhcam_lucero')])]"/>
         </record>
 
@@ -76,7 +94,9 @@
             <field name="name">Taxi Rogelio</field>
             <field name="login">roboba@gmail.com</field>        
             <field name="password"> </field>
+            <field name="tz">America/Mexico_City</field>
             <field name="company_id" ref="company_rogelio" />
+            <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field  name="company_ids" eval="[(6,0,[ref('company_rogelio')])]"/>
         </record>
 
@@ -84,7 +104,9 @@
             <field name="name">Sandoval Magallon</field>
             <field name="login">jsandovalmagallon@gmail.com</field>        
             <field name="password"> </field>
+            <field name="tz">America/Mexico_City</field>
             <field name="company_id" ref="company_tsandoval" />
+            <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field  name="company_ids" eval="[(6,0,[ref('company_tsandoval')])]"/>
         </record>
 
@@ -92,7 +114,9 @@
             <field name="name">Trans Samudio</field>
             <field name="login">transportes_samudio@hotmail.com</field>        
             <field name="password"> </field>
+            <field name="tz">America/Mexico_City</field>
             <field name="company_id" ref="company_tsamudio" />
+            <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field  name="company_ids" eval="[(6,0,[ref('company_tsamudio')])]"/>
         </record>
 
@@ -100,7 +124,9 @@
             <field name="name">Trans Mixteca</field>
             <field name="login">transporteslamixteca2@gmail.com</field>        
             <field name="password"> </field>
+            <field name="tz">America/Mexico_City</field>
             <field name="company_id" ref="company_mixteca" />
+            <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field  name="company_ids" eval="[(6,0,[ref('company_mixteca'),ref('company_mixteca_catalina')])]"/>
         </record>
     </data>        
