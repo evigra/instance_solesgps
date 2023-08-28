@@ -44,6 +44,7 @@ Main Features
 
         'data/gps_devices.xml',
         'data/fleet_vehicle.xml',
+        'data/gps_alerts.xml',
         'data/gps_mirror.xml',
         
         'security/security.xml',
