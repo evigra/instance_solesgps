@@ -111,5 +111,35 @@
                 ref('instance_solesgps.vehicle_uhcam_419')
             ])]"/>
         </record>
+
+        <record id="mirror_misteca01" model="gps_mirror"> 
+            <field name="name">Mixteca01</field>
+            <field name="start" eval="datetime.today()"/>
+            <field name="end" eval="datetime.today() + relativedelta(weeks=1)"/>
+            <field name="company_id" ref="company_mixteca"/>
+            <field  name="vehicle_ids" eval="[(6,0,[
+                ref('instance_solesgps.vehicle_misteca01')
+            ])]"/>
+        </record>
+        <record id="mirror_misteca03" model="gps_mirror"> 
+            <field name="name">Mixteca03</field>
+            <field name="start" eval="datetime.today()"/>
+            <field name="end" eval="datetime.today() + relativedelta(weeks=1)"/>
+            <field name="company_id" ref="company_mixteca"/>
+            <field  name="vehicle_ids" eval="[(6,0,[
+                ref('instance_solesgps.vehicle_misteca03')
+            ])]"/>
+        </record>
+        <record id="mirror_misteca05" model="gps_mirror"> 
+            <field name="name">Mixteca05</field>
+            <field name="start" eval="datetime.today()"/>
+            <field name="end" eval="datetime.today() + relativedelta(weeks=1)"/>
+            <field name="company_id" ref="company_mixteca"/>
+            <field  name="vehicle_ids" eval="[(6,0,[
+                ref('instance_solesgps.vehicle_misteca05')
+            ])]"/>
+        </record>
+
+
     </data>    
 </odoo>
