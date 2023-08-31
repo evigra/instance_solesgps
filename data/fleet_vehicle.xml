@@ -13,7 +13,7 @@
 
       <record id="vehicle_uhcam_01" model="fleet.vehicle">
           <field name="license_plate">17AL6J</field>
-          <field name="economic_number">UHCAM 001</field>
+          <field name="economic_number">CERFAR 001</field>
           <field name="model_id" ref="gpsmap.vehicle_model_kenworth"/>        
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
@@ -22,7 +22,7 @@
       </record>
       <record id="vehicle_uhcam_02" model="fleet.vehicle">
           <field name="license_plate">17AL6J</field>
-          <field name="economic_number">UHCAM 002</field>
+          <field name="economic_number">CERFAR 002</field>
           <field name="model_id" ref="gpsmap.vehicle_model_kenworth"/>        
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
@@ -31,7 +31,7 @@
       </record>
       <record id="vehicle_uhcam_03" model="fleet.vehicle">
           <field name="license_plate">Desc</field>
-          <field name="economic_number">UHCAM 003</field>
+          <field name="economic_number">CERFAR 003</field>
           <field name="model_id" ref="gpsmap.vehicle_model_kenworth"/>        
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
@@ -40,7 +40,7 @@
       </record>
       <record id="vehicle_uhcam_04" model="fleet.vehicle">
           <field name="license_plate">Desc</field>
-          <field name="economic_number">UHCAM 004</field>
+          <field name="economic_number">CERFAR 004</field>
           <field name="model_id" ref="gpsmap.vehicle_model_kenworth"/>        
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
@@ -49,7 +49,7 @@
       </record>
       <record id="vehicle_uhcam_05" model="fleet.vehicle">
           <field name="license_plate">Desc</field>
-          <field name="economic_number">UHCAM 005</field>
+          <field name="economic_number">CERFAR 005</field>
           <field name="model_id" ref="gpsmap.vehicle_model_kenworth"/>        
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>

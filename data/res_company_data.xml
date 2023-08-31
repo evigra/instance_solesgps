@@ -171,7 +171,7 @@
         </record>
 
         <record id="company_uhcam_gustavo" model="res.company">
-            <field name="name">UHCAM Gustavo</field>
+            <field name="name">Transportes CERFAR</field>
             <field name="company_registry">JESUS GUSTAVO CERVANTES FARIAS</field>
             <field name="vat">CEFJ861114NL2</field>
             <field name="phone">52 (314) 133 - 8086</field>

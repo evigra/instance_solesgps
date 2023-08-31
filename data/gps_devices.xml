@@ -1,6 +1,6 @@
 <odoo noupdate="1">
         <record id="gps_uhcam01" model="gps_devices"> 
-            <field name="name">UHCAM 01 </field>
+            <field name="name">CERFAR 01 </field>
             <field name="uniqueid">864895030052433</field>
             <field name="icc">8934076200005432585</field>
             <field name="company_id" ref="company_uhcam_gustavo" />
@@ -11,28 +11,28 @@
         -->
 
         <record id="gps_uhcam02" model="gps_devices"> 
-            <field name="name">UHCAM 02 </field>
+            <field name="name">CERFAR 02 </field>
             <field name="uniqueid">864895034507333</field>
             <field name="icc">8934071200001588690</field>
             <field name="company_id" ref="company_uhcam_gustavo"/>        
         </record>
 
         <record id="gps_uhcam03" model="gps_devices"> 
-            <field name="name">UHCAM 03 </field>
+            <field name="name">CERFAR 03 </field>
             <field name="uniqueid">352672104475157</field>
             <field name="icc">8934071200003860600</field>
             <field name="company_id" ref="company_uhcam_gustavo"/>        
         </record>
 
         <record id="gps_uhcam04" model="gps_devices"> 
-            <field name="name">UHCAM 04 </field>
+            <field name="name">CERFAR 04 </field>
             <field name="uniqueid">864895036371449</field>
             <field name="icc">8934071200003860592</field>
             <field name="company_id" ref="company_uhcam_gustavo"/>        
         </record>
 
         <record id="gps_uhcam05" model="gps_devices"> 
-            <field name="name">UHCAM 05 </field>
+            <field name="name">CERFAR 05 </field>
             <field name="uniqueid">352672105926695</field>
             <field name="icc">8934076200005432635</field>
             <field name="company_id" ref="company_uhcam_gustavo"/>        

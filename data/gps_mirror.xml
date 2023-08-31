@@ -11,7 +11,7 @@
         </record>
 
         <record id="mirror_uhcam_01" model="gps_mirror"> 
-            <field name="name">UHCAM 001</field>
+            <field name="name">CERFAR 001</field>
             <field name="start" eval="datetime.today()"/>
             <field name="end" eval="datetime.today() + relativedelta(weeks=1)"/>
             <field name="company_id" ref="company_uhcam_gustavo"/>
@@ -20,7 +20,7 @@
             ])]"/>
         </record>
         <record id="mirror_uhcam_02" model="gps_mirror"> 
-            <field name="name">UHCAM 002</field>
+            <field name="name">CERFAR 002</field>
             <field name="start" eval="datetime.today()"/>
             <field name="end" eval="datetime.today() + relativedelta(weeks=1)"/>
             <field name="company_id" ref="company_uhcam_gustavo"/>
@@ -29,7 +29,7 @@
             ])]"/>
         </record>
         <record id="mirror_uhcam_03" model="gps_mirror"> 
-            <field name="name">UHCAM 003</field>
+            <field name="name">CERFAR 003</field>
             <field name="start" eval="datetime.today()"/>
             <field name="end" eval="datetime.today() + relativedelta(weeks=1)"/>
             <field name="company_id" ref="company_uhcam_gustavo"/>
@@ -38,7 +38,7 @@
             ])]"/>
         </record>
         <record id="mirror_uhcam_04" model="gps_mirror"> 
-            <field name="name">UHCAM 004</field>
+            <field name="name">CERFAR 004</field>
             <field name="start" eval="datetime.today()"/>
             <field name="end" eval="datetime.today() + relativedelta(weeks=1)"/>
             <field name="company_id" ref="company_uhcam_gustavo"/>
@@ -47,7 +47,7 @@
             ])]"/>
         </record>
         <record id="mirror_uhcam_05" model="gps_mirror"> 
-            <field name="name">UHCAM 005</field>
+            <field name="name">CERFAR 005</field>
             <field name="start" eval="datetime.today()"/>
             <field name="end" eval="datetime.today() + relativedelta(weeks=1)"/>
             <field name="company_id" ref="company_uhcam_gustavo"/>
