@@ -70,6 +70,16 @@
             <field  name="company_ids" eval="[(6,0,[ref('company_uhcam'),ref('company_uhcam_gustavo'),ref('company_uhcam_lucero')])]"/>
         </record>
 
+        <record id="user_cerfar_paola" model="res.users">
+            <field name="name">Paola Infante</field>
+            <field name="login">operaciones@transmilenials.com</field>        
+            <field name="password">Transmilens515</field>
+            <field name="tz">America/Mexico_City</field>
+            <field name="company_id" ref="company_uhcam_gustavo" />
+            <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
+            <field  name="company_ids" eval="[(6,0,[ref('company_uhcam_gustavo')])]"/>
+        </record>
+
         <record id="user_uhcam_lucero" model="res.users">
             <field name="name">L E Lucero</field>
             <field name="login">lucerocl_0412@live.com</field>        
