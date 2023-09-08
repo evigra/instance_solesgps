@@ -1,24 +1,30 @@
 <odoo>
-    <data noupdate="1">
-
+    <!--<data noupdate="0">-->
+    <data>
+<!--
       <record id="vehicle_tsand_01" model="fleet.vehicle">
           <field name="license_plate">17-AH-8Z</field>
           <field name="economic_number">TSAND 01</field>
           <field name="model_id" ref="fleet.model_astra"/>
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
-          <field name="company_id" ref="company_tsandoval"/>
+          <field name="company_id" ref="base.main_company"/>
           <field name="gps1_id" ref="gps_sandoval01"/>
       </record>
+-->
 
       <record id="vehicle_uhcam_01" model="fleet.vehicle">
-          <field name="license_plate">17AL6J</field>
+          <field name="license_plate">34AV4C</field>
           <field name="economic_number">CERFAR 001</field>
-          <field name="model_id" ref="gpsmap.vehicle_model_kenworth"/>        
+          <field name="model_id" ref="gpsmap.vehicle_model_freightliner"/>        
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
-          <field name="company_id" ref="company_uhcam_gustavo"/>
+          <field name="company_id" ref="company_cerfar"/>
+          <field name="vin_sn">3AKJAHBD91DH88264</field>
+          <field name="model_year">2001</field>
+          <field name="fuel_type">diesel</field>
           <field name="gps1_id" ref="gps_uhcam01"/>
+          <field name="speed">120</field>
       </record>
       <record id="vehicle_uhcam_02" model="fleet.vehicle">
           <field name="license_plate">17AL6J</field>
@@ -26,17 +32,25 @@
           <field name="model_id" ref="gpsmap.vehicle_model_kenworth"/>        
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
-          <field name="company_id" ref="company_uhcam_gustavo"/>
+          <field name="company_id" ref="company_cerfar"/>
+          <field name="vin_sn">463546</field>
+          <field name="model_year">1989</field>
+          <field name="fuel_type">diesel</field>
           <field name="gps1_id" ref="gps_uhcam02"/>
+          <field name="speed">120</field>
       </record>
       <record id="vehicle_uhcam_03" model="fleet.vehicle">
-          <field name="license_plate">Desc</field>
+          <field name="license_plate">11AMBT</field>
           <field name="economic_number">CERFAR 003</field>
           <field name="model_id" ref="gpsmap.vehicle_model_kenworth"/>        
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
-          <field name="company_id" ref="company_uhcam_gustavo"/>
+          <field name="company_id" ref="company_cerfar"/>
+          <field name="vin_sn">1XKAD49X9AJ262857</field>
+          <field name="model_year">2010</field>
+          <field name="fuel_type">diesel</field>
           <field name="gps1_id" ref="gps_uhcam03"/>
+          <field name="speed">120</field>
       </record>
       <record id="vehicle_uhcam_04" model="fleet.vehicle">
           <field name="license_plate">Desc</field>
@@ -44,8 +58,9 @@
           <field name="model_id" ref="gpsmap.vehicle_model_kenworth"/>        
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
-          <field name="company_id" ref="company_uhcam_gustavo"/>
+          <field name="company_id" ref="company_cerfar"/>
           <field name="gps1_id" ref="gps_uhcam04"/>
+          <field name="speed">120</field>
       </record>
       <record id="vehicle_uhcam_05" model="fleet.vehicle">
           <field name="license_plate">Desc</field>
@@ -53,8 +68,13 @@
           <field name="model_id" ref="gpsmap.vehicle_model_kenworth"/>        
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
-          <field name="company_id" ref="company_uhcam_gustavo"/>
+          <field name="vin_sn">1NKDD39X0EJ410272</field>
+          <field name="model_year">2014</field>
+          <field name="fuel_type">diesel</field>
+          <field name="company_id" ref="company_cerfar"/>
+          <field name="manager_id" ref="instance_solesgps.user_cerfar_paola"/>
           <field name="gps1_id" ref="gps_uhcam05"/>
+          <field name="speed">120</field>
       </record>
 
       <record id="vehicle_uhcam_12" model="fleet.vehicle">
@@ -65,6 +85,7 @@
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_uhcam"/>
           <field name="gps1_id" ref="gps_uhcam12"/>
+          <field name="speed">120</field>
       </record>
 
       <record id="vehicle_uhcam_62" model="fleet.vehicle">
@@ -75,6 +96,7 @@
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_uhcam"/>
           <field name="gps1_id" ref="gps_uhcam62"/>
+          <field name="speed">120</field>
       </record>
       <record id="vehicle_uhcam_64" model="fleet.vehicle">
           <field name="license_plate">742EW3</field>
@@ -84,6 +106,7 @@
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_uhcam"/>
           <field name="gps1_id" ref="gps_uhcam64"/>
+          <field name="speed">120</field>
       </record>
       <record id="vehicle_uhcam_65" model="fleet.vehicle">
           <field name="license_plate">743EW3</field>
@@ -93,6 +116,7 @@
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_uhcam"/>
           <field name="gps1_id" ref="gps_uhcam65"/>
+          <field name="speed">120</field>
       </record>
 
       <record id="vehicle_uhcam_393" model="fleet.vehicle">
@@ -103,6 +127,7 @@
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_uhcam_lucero"/>
           <field name="gps1_id" ref="gps_uhcam393"/>
+          <field name="speed">120</field>
       </record>
 
       <record id="vehicle_uhcam_412" model="fleet.vehicle">
@@ -113,15 +138,17 @@
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_uhcam_lucero"/>
           <field name="gps1_id" ref="gps_uhcam412"/>
+          <field name="speed">120</field>
       </record>
       <record id="vehicle_uhcam_419" model="fleet.vehicle">
-          <field name="license_plate">50AT6L</field>
+          <field name="license_plate">95AZ9F</field>
           <field name="economic_number">L E 419</field>
           <field name="model_id" ref="gpsmap.vehicle_model_kenworth"/>        
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_uhcam_lucero"/>
           <field name="gps1_id" ref="gps_uhcam419"/>
+          <field name="speed">120</field>
       </record>
 
       <record id="vehicle_misteca01" model="fleet.vehicle">
@@ -132,16 +159,36 @@
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_mixteca"/>
           <field name="gps1_id" ref="gps_mixteca01"/>
+          <field name="speed">120</field>
       </record>
+      
       <record id="vehicle_misteca02" model="fleet.vehicle">
           <field name="license_plate">717AF9</field>
-          <field name="economic_number">MIX 02</field>
+          <field name="economic_number">VICTOR 01</field>
           <field name="model_id" ref="gpsmap.vehicle_model_kenworth"/>        
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
-          <field name="company_id" ref="company_mixteca"/>
+          <field name="vin_sn">3C9KR2EN99A094402</field>
+          <field name="model_year"></field>
+          <field name="fuel_type">diesel</field>
+          <field name="manager_id" ref="instance_solesgps.user_victor"/>
+          <field name="company_id" ref="base.main_company"/>
           <field name="gps1_id" ref="gps_mixteca02"/>
       </record>
+      
+      <record id="vehicle_mini_01" model="fleet.vehicle">
+          <field name="license_plate">717AF9</field>
+          <field name="economic_number">MINI </field>
+          <field name="model_id" ref="gpsmap.vehicle_model_kenworth"/>        
+          <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
+          <field name="odometer_unit">kilometers</field>
+          <field name="vin_sn">3C9KR2EN99A094402</field>
+          <field name="model_year"></field>
+          <field name="fuel_type">diesel</field>
+          <field name="company_id" ref="base.main_company"/>
+          <field name="gps1_id" ref="gps_movil_mini1"/>
+      </record>
+
       <record id="vehicle_misteca03" model="fleet.vehicle">
           <field name="license_plate">15AH8P</field>
           <field name="economic_number">MIX 03</field>
@@ -149,7 +196,9 @@
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_mixteca"/>
+          <field name="manager_id" ref="instance_solesgps.user_mixteca_catalina"/>
           <field name="gps1_id" ref="gps_mixteca03"/>
+          <field name="speed">120</field>          
       </record>
 
       <record id="vehicle_misteca05" model="fleet.vehicle">
@@ -160,6 +209,7 @@
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_mixteca"/>
           <field name="gps1_id" ref="gps_mixteca05"/>
+          <field name="speed">120</field>
       </record>
 
 
@@ -169,8 +219,11 @@
           <field name="model_id" ref="gpsmap.vehicle_model_kenworth"/>        
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
-          <field name="company_id" ref="company_rogelio"/>
+          <field name="company_id" ref="base.main_company"/>
+          <field name="manager_id" ref="instance_solesgps.user_rogelio"/>
           <field name="gps1_id" ref="gps_rogelio"/>
+          <field name="speed">120</field>
+          <field name="image_vehicle">02</field>
       </record>
 
       <record id="vehicle_versa" model="fleet.vehicle">
@@ -181,6 +234,7 @@
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="base.main_company"/>
           <field name="gps1_id" ref="gps_versa"/>
+          <field name="speed">120</field>
       </record>
 
       <record id="vehicle_movil" model="fleet.vehicle">
@@ -191,6 +245,7 @@
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="base.main_company"/>
           <field name="gps1_id" ref="gps_movil"/>
+          <field name="speed">120</field>
       </record>
 
       <record id="vehicle_norma" model="fleet.vehicle">
@@ -201,6 +256,8 @@
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="base.main_company"/>
           <field name="gps1_id" ref="gps_norma"/>
+          <field name="speed">120</field>
+          <field name="image_vehicle">03</field>
       </record>
 
       <record id="vehicle_samudio_01" model="fleet.vehicle">
@@ -211,6 +268,7 @@
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_tsamudio"/>
           <field name="gps1_id" ref="gps_samudio01"/>
+          <field name="speed">120</field>
       </record>
       <record id="vehicle_samudio_02" model="fleet.vehicle">
           <field name="license_plate">786DR2</field>
@@ -220,6 +278,7 @@
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_tsamudio"/>
           <field name="gps1_id" ref="gps_samudio02"/>
+          <field name="speed">120</field>
       </record>
 
 
@@ -232,6 +291,8 @@
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_michoacana"/>
           <field name="gps1_id" ref="gps_michoacana01"/>
+          <field name="speed">120</field>
+          <field name="image_vehicle">30</field>
       </record>
       <record id="vehicle_michoacana_02" model="fleet.vehicle">
           <field name="license_plate">ZLL3B</field>
@@ -241,6 +302,8 @@
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_michoacana"/>
           <field name="gps1_id" ref="gps_michoacana02"/>
+          <field name="speed">120</field>
+          <field name="image_vehicle">30</field>
       </record>
 
       <record id="vehicle_proguz_01" model="fleet.vehicle">
@@ -249,18 +312,23 @@
           <field name="model_id" ref="gpsmap.vehicle_model_kenworth"/>        
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
-          <field name="company_id" ref="company_proguz"/>
+          <field name="company_id" ref="base.main_company"/>
+          <field name="manager_id" ref="instance_solesgps.user_proguz"/>
           <field name="gps1_id" ref="gps_proguz01"/>
+          <field name="speed">120</field>
+          <field name="image_vehicle">06</field>
       </record>
+      <!--
       <record id="vehicle_proguz_02" model="fleet.vehicle">
           <field name="license_plate">JV87579</field>
           <field name="economic_number">PROGUZ 02</field>
           <field name="model_id" ref="gpsmap.vehicle_model_kenworth"/>        
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
-          <field name="company_id" ref="company_proguz"/>
+          <field name="company_id" ref="base.main_company"/>
           <field name="gps1_id" ref="gps_proguz02"/>
       </record>
+      -->
     </data>
 <!--
 

@@ -4,7 +4,7 @@
         <record id="alerts_uhcam_gustado" model="gps_alerts">
             <field name="name">UHCAM Gustavo y Puerto</field>
             <field name="description">webmaster@solesgps.com</field>
-            <field name="company_id" ref="company_uhcam_gustavo" />    
+            <field name="company_id" ref="company_cerfar" />    
 
             <field  name="vehicle_ids" eval="[(6,0,[
                 ref('vehicle_uhcam_01'),
@@ -39,7 +39,8 @@
                 ref('geofences_pto_mzo_multimodal'),
                 ref('geofences_pto_mzo_timsa'),
                 ref('geofences_pto_mzo_junta'),
-                ref('geofences_uhcam')
+                ref('geofences_uhcam'),
+                ref('geofences_uhcam_lucero')
             ])]"/>
         </record>
 
@@ -59,7 +60,8 @@
                 ref('geofences_pto_mzo_multimodal'),
                 ref('geofences_pto_mzo_timsa'),
                 ref('geofences_pto_mzo_junta'),
-                ref('geofences_uhcam')
+                ref('geofences_uhcam'),
+                ref('geofences_uhcam_lucero')
             ])]"/>
         </record>
 
@@ -70,7 +72,6 @@
 
             <field  name="vehicle_ids" eval="[(6,0,[
                 ref('vehicle_misteca01'),
-                ref('vehicle_misteca02'),
                 ref('vehicle_misteca03'),
                 ref('vehicle_misteca05'),
             ])]"/>            

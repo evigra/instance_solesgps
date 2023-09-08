@@ -1,9 +1,9 @@
-<odoo noupdate="1">
+<odoo noupdate="0">
         <record id="gps_uhcam01" model="gps_devices"> 
             <field name="name">CERFAR 01 </field>
             <field name="uniqueid">864895030052433</field>
             <field name="icc">8934076200005432585</field>
-            <field name="company_id" ref="company_uhcam_gustavo" />
+            <field name="company_id" ref="company_cerfar" />
         </record>
 
         <!--
@@ -14,28 +14,28 @@
             <field name="name">CERFAR 02 </field>
             <field name="uniqueid">864895034507333</field>
             <field name="icc">8934071200001588690</field>
-            <field name="company_id" ref="company_uhcam_gustavo"/>        
+            <field name="company_id" ref="company_cerfar"/>        
         </record>
 
         <record id="gps_uhcam03" model="gps_devices"> 
             <field name="name">CERFAR 03 </field>
             <field name="uniqueid">352672104475157</field>
             <field name="icc">8934071200003860600</field>
-            <field name="company_id" ref="company_uhcam_gustavo"/>        
+            <field name="company_id" ref="company_cerfar"/>        
         </record>
 
         <record id="gps_uhcam04" model="gps_devices"> 
             <field name="name">CERFAR 04 </field>
             <field name="uniqueid">864895036371449</field>
             <field name="icc">8934071200003860592</field>
-            <field name="company_id" ref="company_uhcam_gustavo"/>        
+            <field name="company_id" ref="company_cerfar"/>        
         </record>
 
         <record id="gps_uhcam05" model="gps_devices"> 
             <field name="name">CERFAR 05 </field>
             <field name="uniqueid">352672105926695</field>
             <field name="icc">8934076200005432635</field>
-            <field name="company_id" ref="company_uhcam_gustavo"/>        
+            <field name="company_id" ref="company_cerfar"/>        
         </record>
 
         <record id="gps_uhcam12" model="gps_devices"> 
@@ -192,21 +192,28 @@
             <field name="name">TAX ROG 01 </field>
             <field name="uniqueid">864895034504801</field>
             <field name="icc"></field>
-            <field name="company_id" ref="company_rogelio"/>        
+            <field name="company_id" ref="base.main_company"/>        
+        </record>
+
+        <record id="gps_movil_mini1" model="gps_devices"> 
+            <field name="name">Movil Mini 01 </field>
+            <field name="uniqueid">072105052658</field>
+            <field name="icc"></field>
+            <field name="company_id" ref="base.main_company"/>        
         </record>
 
         <record id="gps_sandoval01" model="gps_devices"> 
             <field name="name">TSAND 01 </field>
             <field name="uniqueid">864895031419375</field>
             <field name="icc"></field>
-            <field name="company_id" ref="company_tsandoval"/>        
+            <field name="company_id" ref="base.main_company"/>        
         </record>
 
         <record id="gps_diaz01" model="gps_devices"> 
             <field name="name">TDIAZ 01 </field>
             <field name="uniqueid">864895032995696</field>
             <field name="icc">8934071200001482977</field>
-            <field name="company_id" ref="company_tdiaz"/>        
+            <field name="company_id" ref="base.main_company"/>        
         </record>
 
         <record id="gps_samudio01" model="gps_devices"> 
@@ -227,33 +234,37 @@
             <field name="name">TBUC 01 </field>
             <field name="uniqueid">864895034394401</field>
             <field name="icc">8934071200001500406</field>
-            <field name="company_id" ref="company_tbucio"/>        
+            <field name="company_id" ref="base.main_company"/>        
         </record>
 
         <record id="gps_bucio02" model="gps_devices"> 
             <field name="name">TBUC 02 </field>
             <field name="uniqueid">864895034394492</field>
             <field name="icc">8934071200001499674</field>
-            <field name="company_id" ref="company_tbucio"/>        
+            <field name="company_id" ref="base.main_company"/>        
         </record>
 
         <record id="gps_proguz01" model="gps_devices"> 
             <field name="name">PROGUZ 01</field>
             <field name="uniqueid">864180035422802</field>
             <field name="icc">8934071200001499682</field>
-            <field name="company_id" ref="company_proguz"/>        
+            <field name="company_id" ref="base.main_company"/>        
         </record>
 
         <record id="gps_proguz02" model="gps_devices"> 
             <field name="name">PROGUZ 02</field>
             <field name="uniqueid">864180036785603</field>
             <field name="icc">8934071200001588682</field>
-            <field name="company_id" ref="company_proguz"/>        
+            <field name="company_id" ref="base.main_company"/>        
         </record>
 
         <record id="gps_hugo" model="gps_devices"> 
-            <field name="name">PROGUZ 02</field>
+            <field name="name">HUGO 02</field>
             <field name="uniqueid">636847</field>
-            <field name="company_id" ref="company_developer"/>        
+            <field name="company_id" ref="base.main_company"/>        
         </record>
 </odoo>
+
+<!--
+https://docplayer.net/35177622-Gsm-gprs-gps-tracker-model-tk200.html
+-->

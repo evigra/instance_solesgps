@@ -1,5 +1,6 @@
 <odoo>
-    
+
+
         <record id="base.main_company" model="res.company">
             <field name="name">SolesGPS</field>
             <field name="company_registry">Eduardo Vizcaino Granados</field>
@@ -14,8 +15,8 @@
             <field name="state_id" ref="base.state_mx_col" />
             <field name="country_id" ref="base.mx" />
             <field name="currency_id" ref="base.MXN" />
-            <field name="logo" type="base64" file="instance_solesgps/static/description/logo.png"/>            
-            <field name="logo_web" type="base64" file="instance_solesgps/static/description/logo.png"/>            
+            <field name="logo" type="base64" file="instance_solesgps/static/description/company/solesgps.png"/>            
+            <field name="logo_web" type="base64" file="instance_solesgps/static/description/company/solesgps.png"/>            
             <!--
 
             <field name="logo" type="base64" file="l10n_ar_website_sale/static/description/icon.png"/>
@@ -67,8 +68,11 @@
                 regimen simplificado de confianza
                 3 unidades    
             -->
-        </record>
+            <field name="logo" type="base64" file="instance_solesgps/static/description/company/mixteca.jpeg"/>            
+            <field name="logo_web" type="base64" file="instance_solesgps/static/description/company/mixteca.jpeg"/>            
 
+        </record>
+<!--
         <record id="company_mixteca_catalina" model="res.company">
             <field name="name">La Mixteca Catalina</field>
             <field name="company_registry">CATALINA GONZALEZ ZAMORA</field>
@@ -78,10 +82,8 @@
             <field name="zip">28860</field>
             <field name="country_id" ref="base.mx" />
             <field name="currency_id" ref="base.MXN" />
-            <!--
                 regimen simplificado de confianza
                 1 unidades    
-            -->            
         </record>
 
         <record id="company_mixteca_jesus" model="res.company">
@@ -93,13 +95,10 @@
             <field name="zip">28750</field>
             <field name="country_id" ref="base.mx" />
             <field name="currency_id" ref="base.MXN" />
-            <!--
                 regimen simplificado de confianza
                 1 unidades    
-            -->
-
+   
         </record>
-
         <record id="company_proguz" model="res.company">
             <field name="name">Proveedora Organica de Guzman</field>
             <field name="company_registry">PROVEEDORA ORGANICA DE GUZMAN S.A. DE C.V.</field>
@@ -132,7 +131,7 @@
             <field name="country_id" ref="base.mx" />
             <field name="currency_id" ref="base.MXN" />
         </record>
-
+-->
         <record id="company_tsamudio" model="res.company">
             <field name="name">Transportes Samudio</field>
             <field name="company_registry">Juan Manuel Samudio Tellez</field>
@@ -143,7 +142,7 @@
             <field name="country_id" ref="base.mx" />
             <field name="currency_id" ref="base.MXN" />
         </record>
-
+<!--
         <record id="company_tsandoval" model="res.company">
             <field name="name">Transportes Sandoval</field>
             <field name="company_registry">Juan Manuel Sandoval Magallon</field>
@@ -154,7 +153,7 @@
             <field name="country_id" ref="base.mx" />
             <field name="currency_id" ref="base.MXN" />
         </record>
-
+-->
         <record id="company_uhcam" model="res.company">
             <field name="name">UHCAM</field>
             <field name="company_registry">ANDRES CISNEROS ESCALERA</field>
@@ -168,9 +167,12 @@
                 Régimen de las Personas Físicas con Actividades Empresariales y Profesionales
                 3 unidades    
             -->
+            <field name="logo" type="base64" file="instance_solesgps/static/description/company/uhcam.jpg"/>            
+            <field name="logo_web" type="base64" file="instance_solesgps/static/description/company/uhcam.jpg"/>            
+
         </record>
 
-        <record id="company_uhcam_gustavo" model="res.company">
+        <record id="company_cerfar" model="res.company">
             <field name="name">Transportes CERFAR</field>
             <field name="company_registry">JESUS GUSTAVO CERVANTES FARIAS</field>
             <field name="vat">CEFJ861114NL2</field>
@@ -183,6 +185,9 @@
                 regimen simplificado de confianza
                 4 unidades + 2   
             -->        
+            <field name="logo" type="base64" file="instance_solesgps/static/description/company/cerfar.jpeg"/>            
+            <field name="logo_web" type="base64" file="instance_solesgps/static/description/company/cerfar.jpeg"/>            
+
         </record>
 
         <record id="company_uhcam_lucero" model="res.company">
@@ -200,7 +205,7 @@
             -->   
             
         </record>
-
+<!--
         <record id="company_tbucio" model="res.company">
             <field name="name">Transportes Bucio</field>
             <field name="company_registry">Luis Bucio Fernandez</field>
@@ -211,7 +216,7 @@
             <field name="country_id" ref="base.mx" />
             <field name="currency_id" ref="base.MXN" />
         </record>
-
+-->
 
 
 

@@ -1,0 +1,219 @@
+<odoo>
+    <data noupdate="0">
+
+        <record id="base.partner_root" model="res.partner">
+            <field name="company_type">person</field>
+            <field name="name">Administrator</field>
+            <field name="email">bot@solesgps.com</field>            
+            <field name="lang">es_MX</field>
+        </record>
+
+        <record id="base.partner_admin" model="res.partner">
+            <field name="company_type">person</field>
+            <field name="name">Administrator</field>
+            <field name="email">webmaster@solesgps.com</field>            
+            <field name="lang">es_MX</field>
+        </record>
+
+        <record id="partner_cerfar_paola" model="res.partner">
+            <field name="company_type">person</field>
+            <field name="name">Paola Infante</field>
+            <!--
+            <field name="email">jeremy_1186@hotmail.com</field>        
+            -->
+            <field name="lang">es_MX</field>
+            <field name="phone">52 (753) 120 - 3785</field>
+            <field name="country_id" ref="base.mx" />
+
+        </record>
+
+       <record id="partner_taxi_rogelio" model="res.partner">
+            <field name="company_type">person</field>
+            <field name="name">Taxi Rogelio</field>
+            <!--
+            <field name="email">roboba@gmail.com</field>        
+            -->
+            <field name="lang">es_MX</field>
+            <field name="phone">52 (312) 318 - 0113</field>
+            <field name="country_id" ref="base.mx" />
+        </record>
+
+
+        <record id="partner_uhcam_eugenia" model="res.partner">
+            <field name="company_type">person</field>
+            <field name="name">EUGENIA HERRERA AGUIRRE</field>
+            <!--
+            <field name="email">eugenia.herrera.aguirre@gmail.com</field>        
+            -->
+            <field name="lang">es_MX</field>
+            <field name="phone">52 (753) 103 - 1887</field>
+            <field name="country_id" ref="base.mx" />
+        </record>
+
+        <record id="partner_cerfar_gustavo" model="res.partner">
+            <field name="company_type">company</field>
+            <field name="name">JESUS GUSTAVO CERVANTES FARIAS</field>
+            <!--
+            <field name="email">jeremy_1186@hotmail.com</field>        
+            -->
+            <field name="lang">es_MX</field>
+            <field name="vat">CEFJ861114NL2</field>
+            <field name="phone">52 (314) 133 - 8086</field>
+            <field name="zip">28800</field>
+            <field name="country_id" ref="base.mx"/>
+        </record>
+
+        <record id="partner_uhcam_lucero" model="res.partner">
+            <field name="company_type">company</field>
+            <field name="name">LUCERO ISABEL CISNEROS LEMUS</field>
+            <!--
+            <field name="email">lucerocl_0412@live.com</field>        
+            -->
+            <field name="lang">es_MX</field>
+            <field name="vat">CILL900530MC5</field>
+            <field name="phone">52 (753) 105 - 4671</field>
+            <field name="zip">60950</field>
+            <field name="country_id" ref="base.mx" />
+        </record>
+
+
+
+        <record id="partner_proguz" model="res.partner">
+            <field name="company_type">company</field>
+            <field name="name">PROVEEDORA ORGANICA DE GUZMAN S.A. DE C.V.</field>
+            <!--
+            <field name="email">proveorguzman@outlook.com</field>        
+            -->
+            <field name="lang">es_MX</field>
+            <field name="vat">POG140729C47</field>
+            <field name="phone">52 (341) 110 - 0179</field>
+            <field name="zip">49000</field>
+            <field name="country_id" ref="base.mx" />
+        </record>
+
+        <record id="partner_michoacana" model="res.partner">
+            <field name="company_type">company</field>
+            <field name="name">Edgar Roel Valencia Diaz</field>
+            <!--
+            <field name="email">colimalamichoacana15@gmail.com</field>        
+            -->
+            <field name="lang">es_MX</field>            
+            <field name="vat">VADE780703EC1</field>
+            <field name="phone">52 (331) 517 - 8658</field>
+            <field name="zip">44730</field>
+            <field name="country_id" ref="base.mx" />
+        </record>
+
+        <record id="partner_transportes_samudio" model="res.partner">
+            <field name="company_type">company</field>
+            <field name="name">Juan Manuel Samudio Tellez</field>
+            <!--
+            <field name="email">transportes_samudio@hotmail.com</field>
+            -->
+            <field name="lang">es_MX</field>
+            <field name="vat">SATJ670627HIA</field>
+            <field name="phone">52 (341) 413 - 7444</field>            
+            <field name="zip">49093</field>
+            <field name="country_id" ref="base.mx" />        
+        </record>
+
+        <record id="partner_transportes_mixteca" model="res.partner">
+            <field name="company_type">company</field>
+            <field name="name">Oscar Ricardo Vazquez Avila</field>
+            <!--
+            <field name="email">lamixtecafacturacion@gmail.com</field>
+            -->
+            <field name="lang">es_MX</field>
+            <field name="vat">VAAO831213UI9</field>
+            <field name="phone">52 (314) 120 - 9984</field>            
+            <field name="zip">28876</field>
+            <field name="country_id" ref="base.mx" />
+        </record>
+
+        <record id="partner_t_mixteca_catalina" model="res.partner">
+            <field name="company_type">company</field>
+            <field name="name">CATALINA GONZALEZ ZAMORA</field>
+            <!--
+            <field name="email">lamixtecafacturacion@gmail.com</field>
+            -->
+            <field name="lang">es_MX</field>
+            <field name="vat">GOZC5902207P7</field>
+            <field name="phone">52 (314) 120 - 9984</field>
+            <field name="zip">28860</field>
+            <field name="country_id" ref="base.mx" />
+        </record>
+
+        <record id="partner_soles_evigra" model="res.partner">
+            <field name="company_type">company</field>
+            <field name="name">Eduardo</field>
+            <field name="email">e.vizcaino@solesgps.com</field>        
+            <field name="lang">es_MX</field>
+            <field name="phone">52 314 352 0972</field>
+            <field name="vat">VIGE850830GKA</field>
+            <field name="street">Priv Bugambilias #144</field>
+            <field name="street2">Jardines de Bugambilias</field>
+            <field name="city">Villa de Alvarez</field>
+            <field name="zip">28978</field>
+            <field name="country_id" ref="base.mx" />
+        </record>
+
+        <record id="partner_soles_victor" model="res.partner">
+            <field name="company_type">company</field>
+            <field name="name">VICTOR OMAR JIMENEZ COVARRUBIAS</field>
+            <field name="email">vj398552@gmail.com</field>        
+            <field name="lang">es_MX</field>
+            <field name="phone">52 312 198 3604</field>
+            <field name="vat">JICV791005Q24</field>
+            <field name="street">FEDERICO CARDENAS #651</field>
+            <field name="street2">BUROCRATAS DEL ESTADO</field>
+            <field name="city">VILLA DE ALVAREZ</field>
+            <field name="zip">28989</field>
+            <field name="country_id" ref="base.mx" />
+        </record>
+
+
+    </data>        
+ 
+
+
+</odoo>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+            https://www.xvideos.com/video362303/corrida_en_la_garganta_criada_brasilena
+            https://www.xvideos.com/video51371647/comiendo_a_mi_sirvienta_con_b_ella_disfruta_mucho_en_mi_polla+
+
+-->    

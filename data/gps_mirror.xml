@@ -14,7 +14,7 @@
             <field name="name">CERFAR 001</field>
             <field name="start" eval="datetime.today()"/>
             <field name="end" eval="datetime.today() + relativedelta(weeks=1)"/>
-            <field name="company_id" ref="company_uhcam_gustavo"/>
+            <field name="company_id" ref="company_cerfar"/>
             <field  name="vehicle_ids" eval="[(6,0,[
                 ref('instance_solesgps.vehicle_uhcam_01')
             ])]"/>
@@ -23,7 +23,7 @@
             <field name="name">CERFAR 002</field>
             <field name="start" eval="datetime.today()"/>
             <field name="end" eval="datetime.today() + relativedelta(weeks=1)"/>
-            <field name="company_id" ref="company_uhcam_gustavo"/>
+            <field name="company_id" ref="company_cerfar"/>
             <field  name="vehicle_ids" eval="[(6,0,[
                 ref('instance_solesgps.vehicle_uhcam_02')
             ])]"/>
@@ -32,7 +32,7 @@
             <field name="name">CERFAR 003</field>
             <field name="start" eval="datetime.today()"/>
             <field name="end" eval="datetime.today() + relativedelta(weeks=1)"/>
-            <field name="company_id" ref="company_uhcam_gustavo"/>
+            <field name="company_id" ref="company_cerfar"/>
             <field  name="vehicle_ids" eval="[(6,0,[
                 ref('instance_solesgps.vehicle_uhcam_03')
             ])]"/>
@@ -41,7 +41,7 @@
             <field name="name">CERFAR 004</field>
             <field name="start" eval="datetime.today()"/>
             <field name="end" eval="datetime.today() + relativedelta(weeks=1)"/>
-            <field name="company_id" ref="company_uhcam_gustavo"/>
+            <field name="company_id" ref="company_cerfar"/>
             <field  name="vehicle_ids" eval="[(6,0,[
                 ref('instance_solesgps.vehicle_uhcam_04')
             ])]"/>
@@ -50,7 +50,8 @@
             <field name="name">CERFAR 005</field>
             <field name="start" eval="datetime.today()"/>
             <field name="end" eval="datetime.today() + relativedelta(weeks=1)"/>
-            <field name="company_id" ref="company_uhcam_gustavo"/>
+            <field name="company_id" ref="company_cerfar"/>
+            <field name="manager_id" ref="user_cerfar_paola"/>
             <field  name="vehicle_ids" eval="[(6,0,[
                 ref('instance_solesgps.vehicle_uhcam_05')
             ])]"/>
@@ -140,6 +141,16 @@
             ])]"/>
         </record>
 
+        <record id="mirror_victor01" model="gps_mirror"> 
+            <field name="name">Victor01</field>
+            <field name="start" eval="datetime.today()"/>
+            <field name="end" eval="datetime.today() + relativedelta(weeks=1)"/>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="manager_id" ref="user_victor"/>
+            <field  name="vehicle_ids" eval="[(6,0,[
+                ref('instance_solesgps.vehicle_misteca02')
+            ])]"/>
+        </record>
 
     </data>    
 </odoo>

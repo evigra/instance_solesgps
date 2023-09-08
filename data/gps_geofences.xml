@@ -38,12 +38,11 @@
             <field name="attributes"></field>
             <field name="color">green</field>
             <field  name="company_ids" eval="[(6,0,[
-                ref('instance_solesgps.company_uhcam_gustavo'),
+                ref('instance_solesgps.company_cerfar'),
                 ref('instance_solesgps.company_mixteca'),
-                ref('instance_solesgps.company_mixteca_catalina'),
                 ref('instance_solesgps.company_uhcam'),
                 ref('instance_solesgps.company_uhcam_lucero'),
-                ref('instance_solesgps.company_uhcam')
+                ref('base.main_company'),
             ])]"/>
         </record>
 
@@ -54,12 +53,11 @@
             <field name="attributes"></field>
             <field name="color">blue</field>
             <field  name="company_ids" eval="[(6,0,[
-                ref('instance_solesgps.company_uhcam_gustavo'),
+                ref('instance_solesgps.company_cerfar'),
                 ref('instance_solesgps.company_mixteca'),
-                ref('instance_solesgps.company_mixteca_catalina'),
                 ref('instance_solesgps.company_uhcam'),
                 ref('instance_solesgps.company_uhcam_lucero'),
-                ref('instance_solesgps.company_uhcam')
+                ref('base.main_company'),
             ])]"/>
         </record>
 
@@ -70,12 +68,11 @@
             <field name="attributes"></field>
             <field name="color">blue</field>
             <field  name="company_ids" eval="[(6,0,[
-                ref('instance_solesgps.company_uhcam_gustavo'),
+                ref('instance_solesgps.company_cerfar'),
                 ref('instance_solesgps.company_mixteca'),
-                ref('instance_solesgps.company_mixteca_catalina'),
                 ref('instance_solesgps.company_uhcam'),
                 ref('instance_solesgps.company_uhcam_lucero'),
-                ref('instance_solesgps.company_uhcam')
+                ref('base.main_company'),
             ])]"/>
         </record>
 
@@ -86,12 +83,11 @@
             <field name="attributes"></field>
             <field name="color">blue</field>
             <field  name="company_ids" eval="[(6,0,[
-                ref('instance_solesgps.company_uhcam_gustavo'),
+                ref('instance_solesgps.company_cerfar'),
                 ref('instance_solesgps.company_mixteca'),
-                ref('instance_solesgps.company_mixteca_catalina'),
                 ref('instance_solesgps.company_uhcam'),
                 ref('instance_solesgps.company_uhcam_lucero'),
-                ref('instance_solesgps.company_uhcam')
+                ref('base.main_company'),
             ])]"/>
         </record>
 
@@ -102,24 +98,35 @@
             <field name="attributes"></field>
             <field name="color">blue</field>
             <field  name="company_ids" eval="[(6,0,[
-                ref('instance_solesgps.company_uhcam_gustavo'),
+                ref('instance_solesgps.company_cerfar'),
                 ref('instance_solesgps.company_mixteca'),
-                ref('instance_solesgps.company_mixteca_catalina'),
                 ref('instance_solesgps.company_uhcam'),
                 ref('instance_solesgps.company_uhcam_lucero'),
-                ref('instance_solesgps.company_uhcam')
+                ref('base.main_company'),
             ])]"/>
         </record>
 
         <record id="geofences_uhcam" model="gps_geofences"> 
             <field name="name">UHCAM</field>
             <field name="description">Patio UHCAM</field>
-            <field name="area">-104.22767773632606 19.0469825835855, -104.22570899490913 19.04622704412805, -104.22496334080299 19.047205695250668, -104.22593966488441 19.04803221994186, -104.22767773632606 19.0469825835855</field>
+            <field name="area">-104.22958033473739 19.044657307945737, -104.2248811045433 19.043845978904454, -104.22288554103622 19.047253534226396, -104.22438757808456 19.048815307033454, -104.22803538234481 19.047476645527293, -104.22958033473739 19.044657307945737</field>
             <field name="attributes"></field>
             <field name="color">green</field>
             <field  name="company_ids" eval="[(6,0,[
-                ref('instance_solesgps.company_uhcam_gustavo'),
+                ref('instance_solesgps.company_cerfar'),
                 ref('instance_solesgps.company_uhcam'),
+                ref('instance_solesgps.company_uhcam_lucero'),
+                ref('base.main_company'),
+            ])]"/>
+        </record>
+
+        <record id="geofences_uhcam_lucero" model="gps_geofences"> 
+            <field name="name">LE</field>
+            <field name="description">Patio LE Servicios Especializados</field>
+            <field name="area">-102.18975871863215 17.972795550818013, -102.18714088263361 17.97444880208021, -102.18807201832612 17.97580608938741, -102.19075422734102 17.974081414248246, -102.18975871863215 17.972795550818013</field>
+            <field name="attributes"></field>
+            <field name="color">green</field>
+            <field  name="company_ids" eval="[(6,0,[
                 ref('instance_solesgps.company_uhcam_lucero'),
                 ref('instance_solesgps.company_uhcam')
             ])]"/>
@@ -133,7 +140,6 @@
             <field name="color">green</field>
             <field  name="company_ids" eval="[(6,0,[
                 ref('instance_solesgps.company_mixteca'),
-                ref('instance_solesgps.company_mixteca_catalina'),
             ])]"/>
         </record>
     </data>    

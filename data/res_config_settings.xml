@@ -1,8 +1,8 @@
 <odoo>
-    <data noupdate="1">
+    <data>
 
         <record id="config_settings" model="res.config.settings">
-            <field name="website_name">SolesGPS name</field>
+            <field name="website_name">SolesGPS Rastreo Vehicular</field>
             <field
                 name="language_ids"
                 eval="[(6, 0, [
@@ -20,6 +20,11 @@
             <field name="social_github">https://github.com/evigra</field>
             <field name="social_instagram">https://www.instagram.com/explore/tags/odoo/</field>
 
+
+            <field name="external_report_layout_id" ref="web.report_layout" />
+            <field name="website_default_lang_id" ref="base.lang_es_MX" />
+
+            
         </record>
 
         <function
@@ -37,7 +42,7 @@
     </record>
 
 
-    <data noupdate="1">
+    <data>
         <record id="lang_settings_es_mx" model="base.language.install">
             <field name="lang">es_MX</field>
             <field

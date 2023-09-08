@@ -39,6 +39,7 @@ Main Features
         'data/res_company_data.xml',
         'data/res_config_settings.xml',
         
+        'data/res_partner.xml',
         'data/res_users.xml',
         'data/gps_geofences.xml',
 
