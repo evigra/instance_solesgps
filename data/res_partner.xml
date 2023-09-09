@@ -27,6 +27,19 @@
 
         </record>
 
+        <record id="partner_valenzuela" model="res.partner">
+            <field name="company_type">person</field>
+            <field name="name">Luis</field>
+            <!--
+            <field name="email">valenzuela.1995@hotmail.com</field>        
+            -->
+            <field name="lang">es_MX</field>
+            <field name="phone">52  (314) 144 - 4639</field>
+            <field name="country_id" ref="base.mx" />
+
+        </record>
+
+
        <record id="partner_taxi_rogelio" model="res.partner">
             <field name="company_type">person</field>
             <field name="name">Taxi Rogelio</field>

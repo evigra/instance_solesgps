@@ -244,6 +244,7 @@
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="base.main_company"/>
+          <field name="manager_id" ref="instance_solesgps.user_valenzuela"/>
           <field name="gps1_id" ref="gps_movil"/>
           <field name="speed">120</field>
       </record>

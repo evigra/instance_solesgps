@@ -52,6 +52,18 @@
             <field  name="company_ids" eval="[(6,0,[ref('base.main_company')])]"/>
         </record>
 
+        <record id="user_valenzuela" model="res.users">
+            <field name="name">LUIS VALENZUELA</field>
+            <field name="login">valenzuela.1995@hotmail.com</field>        
+            <field name="password">aervalenzuela7293e65</field>
+            <field name="groups_id" eval="[(4, ref('fleet.fleet_group_user'))]" />
+            <field name="tz">America/Mexico_City</field>
+            <field name="company_id" ref="base.main_company" />            
+            <field name="partner_id" ref="instance_solesgps.partner_valenzuela" />            
+            <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
+            <field  name="company_ids" eval="[(6,0,[ref('base.main_company')])]"/>
+        </record>
+
         <record id="user_victor" model="res.users">
             <field name="name">VICTOR OMAR JIMENEZ COVARRUBIAS</field>
             <field name="login">vj398552@gmail.com</field>        
@@ -120,6 +132,7 @@
             <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field  name="company_ids" eval="[(6,0,[ref('company_uhcam'),ref('company_uhcam_lucero')])]"/>
         </record>
+
 
         <record id="user_uhcam_eugenia" model="res.users">
             <field name="name">L.E. EUGENIA</field>
