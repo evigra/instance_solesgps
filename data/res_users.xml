@@ -137,7 +137,7 @@
         <record id="user_uhcam_eugenia" model="res.users">
             <field name="name">L.E. EUGENIA</field>
             <field name="login">eugenia.herrera.aguirre@gmail.com</field>        
-            <field name="password"> </field>
+            <field name="password">Econo393</field>
             <field name="tz">America/Mexico_City</field>
             <field name="company_id" ref="company_uhcam_lucero" />
             <field name="partner_id" ref="instance_solesgps.partner_uhcam_eugenia" />
@@ -181,7 +181,7 @@
         <record id="user_mixteca" model="res.users">
             <field name="name">TRANS MIXTECA</field>
             <field name="login">transporteslamixteca2@gmail.com</field>        
-            <field name="password">lamixteca13</field>
+            <field name="password">mixteca83</field>
             <field name="tz">America/Mexico_City</field>
             <field name="company_id" ref="company_mixteca" />
             <field name="partner_id" ref="instance_solesgps.partner_transportes_mixteca" />
