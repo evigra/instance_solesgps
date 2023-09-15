@@ -173,7 +173,9 @@
         <record id="partner_soles_victor" model="res.partner">
             <field name="company_type">company</field>
             <field name="name">VICTOR OMAR JIMENEZ COVARRUBIAS</field>
+            <!--
             <field name="email">vj398552@gmail.com</field>        
+            -->
             <field name="lang">es_MX</field>
             <field name="phone">52 312 198 3604</field>
             <field name="vat">JICV791005Q24</field>
