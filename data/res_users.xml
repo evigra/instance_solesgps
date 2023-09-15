@@ -43,7 +43,7 @@
         <record id="user_proguz" model="res.users">
             <field name="name">ANGEL YESENIA</field>
             <field name="login">proveorguzman@outlook.com</field>        
-            <field name="password">aere65</field>
+            <field name="password">POG140729</field>
             <field name="groups_id" eval="[(4, ref('fleet.fleet_group_user'))]" />
             <field name="tz">America/Mexico_City</field>
             <field name="company_id" ref="base.main_company" />            
