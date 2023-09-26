@@ -36,6 +36,7 @@ Main Features
         'data/ir_config_parameter.xml',
         'data/ir_attachment.xml',
         
+        'data/fetchmail_server.xml',
         'data/res_company_data.xml',
         'data/res_config_settings.xml',
         

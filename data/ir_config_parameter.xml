@@ -15,11 +15,16 @@
         <record id="gpsmap.solesgps_db" model="ir.config_parameter"> 
             <field name="value">server_16</field>
         </record>
-        
+
         <record id="solesgps_sync_devices" model="ir.config_parameter">
             <field name="key">gpsmap.sync_devices</field>
             <field name="value" eval="True"/>
         </record>    
+
+        <record id="report_url" model="ir.config_parameter"> 
+            <field name="key">report.url</field>
+            <field name="value">http://odoo.solesgps.com:8069</field>
+        </record>        
     </data>
 </odoo>
 

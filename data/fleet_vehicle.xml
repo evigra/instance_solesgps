@@ -10,6 +10,8 @@
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="base.main_company"/>
           <field name="gps1_id" ref="gps_sandoval01"/>
+
+          <field name="manager_id" ref="instance_solesgps.user_cerfar_paola"/>
       </record>
 -->
 
@@ -20,6 +22,7 @@
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_cerfar"/>
+          <field name="manager_id" ref="instance_solesgps.user_cerfar"/>
           <field name="vin_sn">3AKJAHBD91DH88264</field>
           <field name="model_year">2001</field>
           <field name="fuel_type">diesel</field>
@@ -33,6 +36,7 @@
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_cerfar"/>
+          <field name="manager_id" ref="instance_solesgps.user_cerfar"/>
           <field name="vin_sn">463546</field>
           <field name="model_year">1989</field>
           <field name="fuel_type">diesel</field>
@@ -46,6 +50,7 @@
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_cerfar"/>
+          <field name="manager_id" ref="instance_solesgps.user_cerfar"/>
           <field name="vin_sn">1XKAD49X9AJ262857</field>
           <field name="model_year">2010</field>
           <field name="fuel_type">diesel</field>
@@ -59,6 +64,7 @@
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="company_cerfar"/>
+          <field name="manager_id" ref="instance_solesgps.user_cerfar"/>
           <field name="gps1_id" ref="gps_uhcam04"/>
           <field name="speed">120</field>
       </record>

@@ -1,9 +1,9 @@
 <odoo>
-    <data noupdate="0">
+    <data>
 
         <record id="base.partner_root" model="res.partner">
             <field name="company_type">person</field>
-            <field name="name">Administrator</field>
+            <field name="name">SolesGPS Bot</field>
             <field name="email">bot@solesgps.com</field>            
             <field name="lang">es_MX</field>
         </record>
@@ -69,6 +69,7 @@
             <!--
             <field name="email">jeremy_1186@hotmail.com</field>        
             -->
+            <field name="email">contacto@solesgps.com</field>        
             <field name="lang">es_MX</field>
             <field name="vat">CEFJ861114NL2</field>
             <field name="phone">52 (314) 133 - 8086</field>
