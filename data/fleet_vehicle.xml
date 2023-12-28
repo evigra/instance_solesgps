@@ -115,7 +115,7 @@
           <field name="speed">120</field>
       </record>
       <record id="vehicle_uhcam_65" model="fleet.vehicle">
-          <field name="license_plate">743EW3</field>
+          <field name="license_plate">28BA2M</field>
           <field name="economic_number">UHCAM 065</field>
           <field name="model_id" ref="gpsmap.vehicle_model_international"/>        
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
@@ -180,6 +180,7 @@
           <field name="manager_id" ref="instance_solesgps.user_victor"/>
           <field name="company_id" ref="base.main_company"/>
           <field name="gps1_id" ref="gps_mixteca02"/>
+          <field name="speed">120</field>
       </record>
       
       <record id="vehicle_mini_01" model="fleet.vehicle">
