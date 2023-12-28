@@ -123,7 +123,7 @@
         <record id="geofences_uhcam_lucero" model="gps_geofences"> 
             <field name="name">LE</field>
             <field name="description">Patio LE Servicios Especializados</field>
-            <field name="area">-102.18975871863215 17.972795550818013, -102.18714088263361 17.97444880208021, -102.18807201832612 17.97580608938741, -102.19075422734102 17.974081414248246, -102.18975871863215 17.972795550818013</field>
+            <field name="area">-102.23097239389476 17.964836952856373, -102.22845111742076 17.96424501765632, -102.22947035684642 17.96169355013658, -102.23218475236949 17.96225487615145, -102.23097239389476 17.964836952856373</field>
             <field name="attributes"></field>
             <field name="color">green</field>
             <field  name="company_ids" eval="[(6,0,[
@@ -142,5 +142,67 @@
                 ref('instance_solesgps.company_mixteca'),
             ])]"/>
         </record>
+
+        <record id="geofences_caseta_cuyutlan" model="gps_geofences"> 
+            <field name="name">Caseta Cuyutlan</field>
+            <field name="description">Caseta Cuyutlan</field>
+            <field name="area">-104.08385059642997 18.93140333690194, -104.07732746410575 18.927587461673053, -104.0795161466619 18.92515175106568, -104.0864684324285 18.928886492812335, -104.08385059642997 18.93140333690194</field>
+            <field name="attributes"></field>
+            <field name="color">green</field>
+            <field  name="company_ids" eval="[(6,0,[
+                ref('instance_solesgps.company_cerfar'),
+                ref('instance_solesgps.company_mixteca'),
+                ref('instance_solesgps.company_uhcam'),
+                ref('instance_solesgps.company_uhcam_lucero'),
+                ref('base.main_company'),
+            ])]"/>
+        </record> 
+
+        <record id="geofences_caseta_sanmarcos" model="gps_geofences"> 
+            <field name="name">Caseta San Marcos</field>
+            <field name="description">Caseta San Marcos</field>
+            <field name="area">-103.52661501147237 19.415211015596864, -103.51914774157491 19.410353950336088, -103.5323656676003 19.400315555739237, -103.53871713854757 19.407034872295192, -103.52661501147237 19.415211015596864</field>
+            <field name="attributes"></field>
+            <field name="color">green</field>
+            <field  name="company_ids" eval="[(6,0,[
+                ref('instance_solesgps.company_cerfar'),
+                ref('instance_solesgps.company_mixteca'),
+                ref('instance_solesgps.company_uhcam'),
+                ref('instance_solesgps.company_uhcam_lucero'),
+                ref('base.main_company'),
+            ])]"/>
+        </record>
+
+        <record id="geofences_caseta_sayula" model="gps_geofences"> 
+            <field name="name">Caseta Sayula</field>
+            <field name="description">Caseta Sayula</field>
+            <field name="area">-103.52566808858788 19.927501495370297, -103.53377908864891 19.92673492383323, -103.53506654897606 19.941863937583673, -103.5272559563247 19.94238838407407, -103.52566808858788 19.927501495370297</field>
+            <field name="attributes"></field>
+            <field name="color">green</field>
+            <field  name="company_ids" eval="[(6,0,[
+                ref('instance_solesgps.company_cerfar'),
+                ref('instance_solesgps.company_mixteca'),
+                ref('instance_solesgps.company_uhcam'),
+                ref('instance_solesgps.company_uhcam_lucero'),
+                ref('base.main_company'),
+            ])]"/>
+        </record>
+
+        <record id="geofences_caseta_acatlan" model="gps_geofences"> 
+            <field name="name">Caseta Acatlan</field>
+            <field name="description">Caseta Acatlan</field>
+            <field name="area">-103.57480056076156 20.378281622286934, -103.57441432266342 20.364240906508556, -103.57913501052963 20.36452253800463, -103.57913501052963 20.378965521364446, -103.57480056076156 20.378281622286934</field>
+            <field name="attributes"></field>
+            <field name="color">green</field>
+            <field  name="company_ids" eval="[(6,0,[
+                ref('instance_solesgps.company_cerfar'),
+                ref('instance_solesgps.company_mixteca'),
+                ref('instance_solesgps.company_uhcam'),
+                ref('instance_solesgps.company_uhcam_lucero'),
+                ref('base.main_company'),
+            ])]"/>
+        </record>
+
+
     </data>    
 </odoo>
