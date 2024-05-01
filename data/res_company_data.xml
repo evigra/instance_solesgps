@@ -109,6 +109,18 @@
             <field name="country_id" ref="base.mx" />
             <field name="currency_id" ref="base.MXN" />
         </record>
+        <record id="company_agrosanmarcos" model="res.company">
+            <field name="name">AGRO INSUMOS SAN MARCOS</field>
+            <field name="company_registry">AGRO INSUMOS SAN MARCOS S.A. DE C.V.</field>
+            <field name="vat">AIS190617NG2</field>
+            <field name="phone">52 (321) 688 - 0021</field>
+            <field name="email">sanmarcos_autlan19@hotmail.com</field>
+            <field name="zip">48740</field>
+            <field name="country_id" ref="base.mx" />
+            <field name="currency_id" ref="base.MXN" />
+                General de Ley Personas Morales
+                1 unidades
+        </record>
 
         <record id="company_rogelio" model="res.company">
             <field name="name">Taxi rogelio</field>
@@ -183,7 +195,7 @@
             <field name="currency_id" ref="base.MXN" />
             <!--
                 regimen simplificado de confianza
-                4 unidades + 2   
+                4 unidades + 3   
             -->        
             <field name="logo" type="base64" file="instance_solesgps/static/description/company/cerfar.jpeg"/>            
             <field name="logo_web" type="base64" file="instance_solesgps/static/description/company/cerfar.jpeg"/>            
