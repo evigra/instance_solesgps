@@ -66,7 +66,7 @@
             <field name="currency_id" ref="base.MXN" />
             <!--
                 regimen simplificado de confianza
-                3 unidades    
+                2 unidades    
             -->
             <field name="logo" type="base64" file="instance_solesgps/static/description/company/mixteca.jpeg"/>            
             <field name="logo_web" type="base64" file="instance_solesgps/static/description/company/mixteca.jpeg"/>            
@@ -195,7 +195,7 @@
             <field name="currency_id" ref="base.MXN" />
             <!--
                 regimen simplificado de confianza
-                4 unidades + 3   
+                5 unidades + 4 UHCAM   
             -->        
             <field name="logo" type="base64" file="instance_solesgps/static/description/company/cerfar.jpeg"/>            
             <field name="logo_web" type="base64" file="instance_solesgps/static/description/company/cerfar.jpeg"/>            
