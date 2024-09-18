@@ -3,6 +3,7 @@
             <field name="name">CERFAR 01 </field>
             <field name="uniqueid">864895030052433</field>
             <field name="icc">8934076200005432585</field>
+            <field name="phone">3141480095</field>
             <field name="company_id" ref="company_cerfar" />
         </record>
 
@@ -14,6 +15,7 @@
             <field name="name">CERFAR 02 </field>
             <field name="uniqueid">864895034507333</field>
             <field name="icc">8934071200001588690</field>
+            <field name="phone">3141480124</field>
             <field name="company_id" ref="company_cerfar"/>        
         </record>
 
@@ -21,6 +23,7 @@
             <field name="name">CERFAR 03 </field>
             <field name="uniqueid">352672104475157</field>
             <field name="icc">8934071200003860600</field>
+            <field name="phone">3141479771</field>
             <field name="company_id" ref="company_cerfar"/>        
         </record>
 
@@ -35,7 +38,16 @@
             <field name="name">CERFAR 05 </field>
             <field name="uniqueid">352672105926695</field>
             <field name="icc">8934076200005432635</field>
+            <field name="phone">3121134324</field>
             <field name="company_id" ref="company_cerfar"/>        
+        </record>
+
+        <record id="gps_uhcam06" model="gps_devices"> 
+            <field name="name">cerfar 06 - J16 Brasil 1724 nuevo</field>
+            <field name="uniqueid">1632221724</field>
+            <field name="icc">8934071200003846807</field>
+            <field name="phone">3121133585</field>
+            <field name="company_id" ref="company_cerfar"/>
         </record>
 
         <record id="gps_uhcam12" model="gps_devices"> 
@@ -106,6 +118,13 @@
             <field name="icc">8934071500003828139</field>
             <field name="company_id" ref="base.main_company"/>        
         </record>
+        <record id="gps_fer01" model="gps_devices"> 
+            <field name="name">FER 01 GT06 5853</field>
+            <field name="uniqueid">352672105925853</field>
+            <field name="icc"></field>
+            <field name="phone">3141479935</field>
+            <field name="company_id" ref="main_company"/>        
+        </record>  
 
 
         <record id="gps_norma" model="gps_devices"> 
