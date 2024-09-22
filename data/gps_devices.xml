@@ -123,7 +123,7 @@
             <field name="uniqueid">352672105925853</field>
             <field name="icc"></field>
             <field name="phone">3141479935</field>
-            <field name="company_id" ref="main_company"/>        
+            <field name="company_id" ref="base.main_company"/>        
         </record>  
 
 
