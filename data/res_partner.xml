@@ -39,7 +39,6 @@
 
         </record>
 
-
        <record id="partner_taxi_rogelio" model="res.partner">
             <field name="company_type">person</field>
             <field name="name">Taxi Rogelio</field>
@@ -51,6 +50,17 @@
             <field name="country_id" ref="base.mx" />
         </record>
 
+
+       <record id="partner_fernando" model="res.partner">
+            <field name="company_type">person</field>
+            <field name="name">Luis Fernando Santoyo Galicia</field>
+            <!--
+            <field name="email">fenandosantoyo2016@gmail.com</field>        
+            -->
+            <field name="lang">es_MX</field>
+            <field name="phone">52 (314) 165 - 0156</field>
+            <field name="country_id" ref="base.mx" />
+        </record>
 
         <record id="partner_uhcam_eugenia" model="res.partner">
             <field name="company_type">person</field>
