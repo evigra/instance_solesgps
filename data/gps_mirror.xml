@@ -1,5 +1,6 @@
 <odoo>
     <data noupdate="1">
+<!--
         <record id="mirror_soles_norma" model="gps_mirror"> 
             <field name="name">SOLES Norma</field>
             <field name="start" eval="datetime.today()"/>
@@ -9,7 +10,7 @@
                 ref('instance_solesgps.vehicle_norma')
             ])]"/>
         </record>
-
+-->
         <record id="mirror_uhcam_01" model="gps_mirror"> 
             <field name="name">CERFAR 001</field>
             <field name="start" eval="datetime.today()"/>
@@ -56,7 +57,7 @@
                 ref('instance_solesgps.vehicle_uhcam_05')
             ])]"/>
         </record>
-
+<!--
         <record id="mirror_uhcam_62" model="gps_mirror"> 
             <field name="name">UHCAM 062</field>
             <field name="start" eval="datetime.today()"/>
@@ -151,6 +152,6 @@
                 ref('instance_solesgps.vehicle_misteca02')
             ])]"/>
         </record>
-
+-->
     </data>    
 </odoo>

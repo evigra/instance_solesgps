@@ -54,6 +54,7 @@
             -->
             
         </record>
+<!--
 
         <record id="company_mixteca" model="res.company">
             <field name="name">La Mixteca</field>
@@ -64,15 +65,10 @@
             <field name="zip">28876</field>
             <field name="country_id" ref="base.mx" />
             <field name="currency_id" ref="base.MXN" />
-            <!--
-                regimen simplificado de confianza
-                2 unidades    
-            -->
             <field name="logo" type="base64" file="instance_solesgps/static/description/company/mixteca.jpeg"/>            
             <field name="logo_web" type="base64" file="instance_solesgps/static/description/company/mixteca.jpeg"/>            
 
         </record>
-<!--
         <record id="company_mixteca_catalina" model="res.company">
             <field name="name">La Mixteca Catalina</field>
             <field name="company_registry">CATALINA GONZALEZ ZAMORA</field>
@@ -143,7 +139,6 @@
             <field name="country_id" ref="base.mx" />
             <field name="currency_id" ref="base.MXN" />
         </record>
--->
         <record id="company_tsamudio" model="res.company">
             <field name="name">Transportes Samudio</field>
             <field name="company_registry">Juan Manuel Samudio Tellez</field>
@@ -154,7 +149,6 @@
             <field name="country_id" ref="base.mx" />
             <field name="currency_id" ref="base.MXN" />
         </record>
-<!--
         <record id="company_tsandoval" model="res.company">
             <field name="name">Transportes Sandoval</field>
             <field name="company_registry">Juan Manuel Sandoval Magallon</field>
@@ -165,7 +159,6 @@
             <field name="country_id" ref="base.mx" />
             <field name="currency_id" ref="base.MXN" />
         </record>
--->
         <record id="company_uhcam" model="res.company">
             <field name="name">UHCAM</field>
             <field name="company_registry">ANDRES CISNEROS ESCALERA</field>
@@ -175,14 +168,11 @@
             <field name="zip">60982</field>
             <field name="country_id" ref="base.mx" />
             <field name="currency_id" ref="base.MXN" />
-            <!--
-                Régimen de las Personas Físicas con Actividades Empresariales y Profesionales
-                3 unidades    
-            -->
             <field name="logo" type="base64" file="instance_solesgps/static/description/company/uhcam.jpg"/>            
             <field name="logo_web" type="base64" file="instance_solesgps/static/description/company/uhcam.jpg"/>            
 
         </record>
+-->
 
         <record id="company_cerfar" model="res.company">
             <field name="name">Transportes CERFAR</field>
@@ -201,6 +191,7 @@
             <field name="logo_web" type="base64" file="instance_solesgps/static/description/company/cerfar.jpeg"/>            
 
         </record>
+<!--
 
         <record id="company_uhcam_lucero" model="res.company">
             <field name="name">LE Servicios Especializados</field>
@@ -211,13 +202,8 @@
             <field name="zip">60950</field>
             <field name="country_id" ref="base.mx" />
             <field name="currency_id" ref="base.MXN" />
-            <!--
-                Personas Físicas con Actividades Empresariales y Profesionales                               
-                3 unidades    
-            -->   
             
         </record>
-<!--
         <record id="company_tbucio" model="res.company">
             <field name="name">Transportes Bucio</field>
             <field name="company_registry">Luis Bucio Fernandez</field>

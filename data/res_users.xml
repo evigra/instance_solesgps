@@ -11,11 +11,7 @@
                 ref('base.main_company'),
                 ref('company_developer'),
                 ref('company_michoacana'),                
-                ref('company_mixteca'),       
-                ref('company_tsamudio'),
-                ref('company_uhcam'),
                 ref('company_cerfar'),
-                ref('company_uhcam_lucero')
             ])]"/>
 
         </record>
@@ -32,11 +28,7 @@
                 ref('base.main_company'),
                 ref('company_developer'),
                 ref('company_michoacana'),                
-                ref('company_mixteca'),
-                ref('company_tsamudio'),
-                ref('company_uhcam'),
                 ref('company_cerfar'),
-                ref('company_uhcam_lucero')
             ])]"/>
         </record>
 
@@ -51,7 +43,7 @@
             <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field  name="company_ids" eval="[(6,0,[ref('base.main_company')])]"/>
         </record>
-
+<!--
         <record id="user_valenzuela" model="res.users">
             <field name="name">LUIS VALENZUELA</field>
             <field name="login">valenzuela.1995@hotmail.com</field>        
@@ -75,7 +67,7 @@
             <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field  name="company_ids" eval="[(6,0,[ref('base.main_company')])]"/>
         </record>
-
+-->
 
         <record id="user_michoacana" model="res.users">
             <field name="name">Cremeria la Michoacana</field>
@@ -107,7 +99,7 @@
             <field name="company_id" ref="company_cerfar" />
             <field name="partner_id" ref="instance_solesgps.partner_cerfar_gustavo" />
             <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
-            <field  name="company_ids" eval="[(6,0,[ref('company_uhcam'),ref('company_cerfar'),ref('company_uhcam_lucero')])]"/>
+            <field  name="company_ids" eval="[(6,0,[ref('company_cerfar')])]"/>
         </record>
 
         <record id="user_cerfar_paola" model="res.users">
@@ -121,7 +113,7 @@
             <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field  name="company_ids" eval="[(6,0,[ref('company_cerfar')])]"/>
         </record>
-
+<!--
         <record id="user_uhcam_lucero" model="res.users">
             <field name="name">L.E. LUCERO</field>
             <field name="login">lucerocl_0412@live.com</field>        
@@ -144,7 +136,7 @@
             <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field  name="company_ids" eval="[(6,0,[ref('company_uhcam'),ref('company_uhcam_lucero')])]"/>
         </record>
-
+-->
         <record id="user_rogelio" model="res.users">
             <field name="name">TAXI ROGELIO</field>
             <field name="login">roboba@gmail.com</field>        
@@ -179,7 +171,7 @@
             <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field  name="company_ids" eval="[(6,0,[ref('company_tsandoval')])]"/>
         </record>
--->
+
         <record id="user_tsamudio" model="res.users">
             <field name="name">TRANS SAMUDIO</field>
             <field name="login">transportes_samudio@hotmail.com</field>        
@@ -212,7 +204,7 @@
             <field name="action_id" ref="gpsmap.action_gpsmap_maponline" />
             <field name="company_ids" eval="[(6,0,[ref('company_mixteca')])]"/>
         </record>
-
+-->
 
     </data>        
  

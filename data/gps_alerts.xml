@@ -37,7 +37,7 @@
                 ref('geofences_pto_mzo_junta'),
             ])]"/>
         </record>
-
+<!--
         <record id="alerts_uhcam" model="gps_alerts">
             <field name="name">UHCAM y Puerto</field>
             <field name="send_mail" eval="True"/>
@@ -138,7 +138,7 @@
                 ref('geofences_pto_mzo_junta'),
             ])]"/>
         </record>
-
+-->
         <record id="alerts_michoacana" model="gps_alerts">
             <field name="name">Michoacana </field>
             <field name="send_mail" eval="False"/>

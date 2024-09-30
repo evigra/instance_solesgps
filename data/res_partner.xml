@@ -26,19 +26,16 @@
             <field name="country_id" ref="base.mx" />
 
         </record>
-
+<!--
         <record id="partner_valenzuela" model="res.partner">
             <field name="company_type">person</field>
             <field name="name">Luis</field>
-            <!--
-            <field name="email">valenzuela.1995@hotmail.com</field>        
-            -->
             <field name="lang">es_MX</field>
             <field name="phone">52  (314) 144 - 4639</field>
             <field name="country_id" ref="base.mx" />
 
         </record>
-
+-->
        <record id="partner_taxi_rogelio" model="res.partner">
             <field name="company_type">person</field>
             <field name="name">Taxi Rogelio</field>
@@ -61,18 +58,15 @@
             <field name="phone">52 (314) 165 - 0156</field>
             <field name="country_id" ref="base.mx" />
         </record>
-
+<!--
         <record id="partner_uhcam_eugenia" model="res.partner">
             <field name="company_type">person</field>
             <field name="name">EUGENIA HERRERA AGUIRRE</field>
-            <!--
-            <field name="email">eugenia.herrera.aguirre@gmail.com</field>        
-            -->
             <field name="lang">es_MX</field>
             <field name="phone">52 (753) 103 - 1887</field>
             <field name="country_id" ref="base.mx" />
         </record>
-
+-->
         <record id="partner_cerfar_gustavo" model="res.partner">
             <field name="company_type">company</field>
             <field name="name">JESUS GUSTAVO CERVANTES FARIAS</field>
@@ -86,20 +80,17 @@
             <field name="zip">28800</field>
             <field name="country_id" ref="base.mx"/>
         </record>
-
+<!--
         <record id="partner_uhcam_lucero" model="res.partner">
             <field name="company_type">company</field>
             <field name="name">LUCERO ISABEL CISNEROS LEMUS</field>
-            <!--
-            <field name="email">lucerocl_0412@live.com</field>        
-            -->
             <field name="lang">es_MX</field>
             <field name="vat">CILL900530MC5</field>
             <field name="phone">52 (753) 105 - 4671</field>
             <field name="zip">60950</field>
             <field name="country_id" ref="base.mx" />
         </record>
-
+-->
 
 
         <record id="partner_proguz" model="res.partner">
@@ -127,13 +118,10 @@
             <field name="zip">44730</field>
             <field name="country_id" ref="base.mx" />
         </record>
-
+<!--
         <record id="partner_transportes_samudio" model="res.partner">
             <field name="company_type">company</field>
             <field name="name">Juan Manuel Samudio Tellez</field>
-            <!--
-            <field name="email">transportes_samudio@hotmail.com</field>
-            -->
             <field name="lang">es_MX</field>
             <field name="vat">SATJ670627HIA</field>
             <field name="phone">52 (341) 413 - 7444</field>            
@@ -144,9 +132,6 @@
         <record id="partner_transportes_mixteca" model="res.partner">
             <field name="company_type">company</field>
             <field name="name">Oscar Ricardo Vazquez Avila</field>
-            <!--
-            <field name="email">lamixtecafacturacion@gmail.com</field>
-            -->
             <field name="lang">es_MX</field>
             <field name="vat">VAAO831213UI9</field>
             <field name="phone">52 (314) 120 - 9984</field>            
@@ -157,16 +142,13 @@
         <record id="partner_t_mixteca_catalina" model="res.partner">
             <field name="company_type">company</field>
             <field name="name">CATALINA GONZALEZ ZAMORA</field>
-            <!--
-            <field name="email">lamixtecafacturacion@gmail.com</field>
-            -->
             <field name="lang">es_MX</field>
             <field name="vat">GOZC5902207P7</field>
             <field name="phone">52 (314) 120 - 9984</field>
             <field name="zip">28860</field>
             <field name="country_id" ref="base.mx" />
         </record>
-
+-->
         <record id="partner_soles_evigra" model="res.partner">
             <field name="company_type">company</field>
             <field name="name">Eduardo</field>
@@ -181,12 +163,10 @@
             <field name="country_id" ref="base.mx" />
         </record>
 
+<!--
         <record id="partner_soles_victor" model="res.partner">
             <field name="company_type">company</field>
             <field name="name">VICTOR OMAR JIMENEZ COVARRUBIAS</field>
-            <!--
-            <field name="email">vj398552@gmail.com</field>        
-            -->
             <field name="lang">es_MX</field>
             <field name="phone">52 312 198 3604</field>
             <field name="vat">JICV791005Q24</field>
@@ -196,7 +176,7 @@
             <field name="zip">28989</field>
             <field name="country_id" ref="base.mx" />
         </record>
-
+-->
 
     </data>        
  

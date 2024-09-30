@@ -98,7 +98,7 @@
           <field name="speed">120</field>
       </record>
 
-
+<!--
       <record id="vehicle_uhcam_12" model="fleet.vehicle">
           <field name="license_plate">724EW3</field>
           <field name="economic_number">UHCAM 012</field>
@@ -198,7 +198,7 @@
           <field name="gps1_id" ref="gps_mixteca02"/>
           <field name="speed">120</field>
       </record>
-      
+-->  
       <record id="vehicle_mini_01" model="fleet.vehicle">
           <field name="license_plate">717AF9</field>
           <field name="economic_number">MINI </field>
@@ -211,7 +211,7 @@
           <field name="company_id" ref="base.main_company"/>
           <field name="gps1_id" ref="gps_movil_mini1"/>
       </record>
-
+<!--
       <record id="vehicle_misteca03" model="fleet.vehicle">
           <field name="license_plate">15AH8P</field>
           <field name="economic_number">MIX 03</field>
@@ -234,7 +234,7 @@
           <field name="gps1_id" ref="gps_mixteca05"/>
           <field name="speed">120</field>
       </record>
-
+-->
 
       <record id="vehicle_rogelio" model="fleet.vehicle">
           <field name="license_plate">298-DVB</field>
@@ -248,7 +248,7 @@
           <field name="speed">120</field>
           <field name="image_vehicle">02</field>
       </record>
-
+<!--
       <record id="vehicle_versa" model="fleet.vehicle">
           <field name="license_plate">FTB5754</field>
           <field name="economic_number">Versa</field>
@@ -259,7 +259,7 @@
           <field name="gps1_id" ref="gps_versa"/>
           <field name="speed">120</field>
       </record>
-
+-->
       <record id="vehicle_movil" model="fleet.vehicle">
           <field name="license_plate">FTB5754</field>
           <field name="economic_number">MOVIL</field>
@@ -267,11 +267,10 @@
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="base.main_company"/>
-          <field name="manager_id" ref="instance_solesgps.user_valenzuela"/>
           <field name="gps1_id" ref="gps_movil"/>
           <field name="speed">120</field>
       </record>
-
+<!--
       <record id="vehicle_norma" model="fleet.vehicle">
           <field name="license_plate">Norma</field>
           <field name="economic_number">Norma</field>
@@ -283,7 +282,7 @@
           <field name="speed">120</field>
           <field name="image_vehicle">03</field>
       </record>
-
+-->
       <record id="vehicle_fer01" model="fleet.vehicle">
           <field name="license_plate"></field>
           <field name="economic_number">FER 01</field>
@@ -291,10 +290,11 @@
           <field name="state_id" ref="fleet.fleet_vehicle_state_registered"/>
           <field name="odometer_unit">kilometers</field>
           <field name="company_id" ref="base.main_company"/>
+          <field name="manager_id" ref="instance_solesgps.user_fernando"/>
           <field name="gps1_id" ref="gps_fer01"/>
           <field name="speed">120</field>
       </record>
-
+<!--
       <record id="vehicle_samudio_01" model="fleet.vehicle">
           <field name="license_plate">JW88376</field>
           <field name="economic_number">SAMUDIO 01</field>
@@ -315,7 +315,7 @@
           <field name="gps1_id" ref="gps_samudio02"/>
           <field name="speed">120</field>
       </record>
-
+-->
 
 
       <record id="vehicle_michoacana_01" model="fleet.vehicle">
@@ -363,6 +363,7 @@
           <field name="company_id" ref="base.main_company"/>
           <field name="gps1_id" ref="gps_proguz02"/>
       </record>
+
       -->
     </data>
 <!--

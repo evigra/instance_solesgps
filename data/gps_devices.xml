@@ -49,7 +49,7 @@
             <field name="phone">3121133585</field>
             <field name="company_id" ref="company_cerfar"/>
         </record>
-
+<!--
         <record id="gps_uhcam12" model="gps_devices"> 
             <field name="name">UHCAM 12 </field>
             <field name="uniqueid">864180037466427</field>
@@ -118,6 +118,7 @@
             <field name="icc">8934071500003828139</field>
             <field name="company_id" ref="base.main_company"/>        
         </record>
+-->
         <record id="gps_fer01" model="gps_devices"> 
             <field name="name">FER 01 GT06 5853</field>
             <field name="uniqueid">352672105925853</field>
@@ -126,14 +127,14 @@
             <field name="company_id" ref="base.main_company"/>        
         </record>  
 
-
+<!--
         <record id="gps_norma" model="gps_devices"> 
             <field name="name">Norma</field>
             <field name="uniqueid">864926030226170</field>
             <field name="icc">8934071500003828550</field>
             <field name="company_id" ref="base.main_company"/>        
         </record>
-
+-->
         <record id="gps_movil" model="gps_devices"> 
             <field name="name">Movil Iman</field>
             <field name="uniqueid">864925030143039</field>
@@ -162,7 +163,7 @@
             <field name="company_id" ref="base.main_company"/>        
         </record>
 
-
+<!--
 
         <record id="gps_mixteca01" model="gps_devices"> 
             <field name="name">MIXTECA 01</field>
@@ -191,7 +192,7 @@
             <field name="icc">8934076200005432593</field>
             <field name="company_id" ref="company_mixteca"/>        
         </record>
-        
+-->    
         <record id="gps_michoacana01" model="gps_devices"> 
             <field name="name">Michoacana 01</field>
             <field name="uniqueid">352672103889515</field>
@@ -220,7 +221,7 @@
             <field name="icc"></field>
             <field name="company_id" ref="base.main_company"/>        
         </record>
-
+<!--
         <record id="gps_sandoval01" model="gps_devices"> 
             <field name="name">TSAND 01 </field>
             <field name="uniqueid">864895031419375</field>
@@ -262,7 +263,7 @@
             <field name="icc">8934071200001499674</field>
             <field name="company_id" ref="base.main_company"/>        
         </record>
-
+-->
         <record id="gps_proguz01" model="gps_devices"> 
             <field name="name">PROGUZ 01</field>
             <field name="uniqueid">864180035422802</field>
@@ -276,12 +277,13 @@
             <field name="icc">8934071200001588682</field>
             <field name="company_id" ref="base.main_company"/>        
         </record>
-
+<!--
         <record id="gps_hugo" model="gps_devices"> 
             <field name="name">HUGO 02</field>
             <field name="uniqueid">636847</field>
             <field name="company_id" ref="base.main_company"/>        
         </record>
+-->
 </odoo>
 
 <!--
