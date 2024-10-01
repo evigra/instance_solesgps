@@ -2,18 +2,18 @@
 <odoo>
     <data noupdate="1">
         <record id="gpsmap.solesgps_host" model="ir.config_parameter">         
-            <field name="value">http://server_16.solesgps.com:7916</field>
+            <field name="value">http://server16.solesgps.com:7916</field>
         </record>
 
         
         <record id="gpsmap.solesgps_user" model="ir.config_parameter"> 
-            <field name="value">solesgps</field>
+            <field name="value">admin</field>
         </record>
         <record id="gpsmap.solesgps_pass" model="ir.config_parameter"> 
             <field name="value">admin</field>
         </record>
         <record id="gpsmap.solesgps_db" model="ir.config_parameter"> 
-            <field name="value">server_16</field>
+            <field name="value">server16</field>
         </record>
 
         <record id="solesgps_sync_devices" model="ir.config_parameter">
@@ -23,7 +23,7 @@
 
         <record id="report_url" model="ir.config_parameter"> 
             <field name="key">report.url</field>
-            <field name="value">http://odoo.solesgps.com:8069</field>
+            <field name="value">http://www.solesgps.com:8069</field>
         </record>        
     </data>
 </odoo>
