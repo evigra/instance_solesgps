@@ -116,6 +116,15 @@
             <field name="phone">3121134292</field>
         </record>
 
+        <record id="gps_michoacana03" model="gps_devices"> 
+            <field name="name">Michoacana 03</field>
+            <field name="uniqueid">1632221713</field>
+            <field name="model"></field>
+            <field name="port"></field>
+            <field name="phone">3131974183</field>
+        </record>
+
+
 
         <record id="gps_rogelio" model="gps_devices"> 
             <field name="name">TAX ROG 01 </field>
@@ -133,6 +142,11 @@
             <field name="port"></field>
             <field name="phone"></field>
         </record>
+
+
+
+
+
 </odoo>
 
 <!--

@@ -52,6 +52,17 @@
             <field name="zip">44730</field>
             <field name="country_id" ref="base.mx" />
         </record>
+        <record id="partner_michoacana_lupita" model="res.partner">
+            <field name="company_type">person</field>
+            <field name="name">Lupita</field>
+            <!--
+            <field name="email">colimalamichoacana15@gmail.com</field>        
+            -->
+            <field name="lang">es_MX</field>            
+            <field name="phone">(312) 132 - 2635</field>
+            <field name="zip"></field>
+            <field name="country_id" ref="base.mx" />
+        </record>
 
 
         <record id="partner_michoacana" model="res.partner">
