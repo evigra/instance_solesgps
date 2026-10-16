@@ -29,7 +29,6 @@ Main Features
 * Analysis graph for costs
 """,
     'depends': [
-        'website',
         'gpsmap',        
         'gpsmap_engine', 
         'gpsmap_history',
@@ -37,7 +36,7 @@ Main Features
         'gpsmap_geofence', 
         'gpsmap_mirror',
         'gpsmap_company', 
-        'gpsmap_website',
+        #'gpsmap_website',
         #'gpsmap_taecel', 
         #'account',
         #'l10n_mx',  

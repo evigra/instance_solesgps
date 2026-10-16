@@ -18,11 +18,11 @@
             <field name="logo" type="base64" file="instance_solesgps/static/description/company/solesgps.png"/>            
             <field name="logo_web" type="base64" file="instance_solesgps/static/description/company/solesgps.png"/>            
 
-            <field name="social_facebook">https://www.facebook.com/solucionsatelital</field>
-            <field name="social_youtube">www.youtube.com/@odoosolesgps3548</field>
 
             
             <!--
+            <field name="social_facebook">https://www.facebook.com/solucionsatelital</field>
+            <field name="social_youtube">www.youtube.com/@odoosolesgps3548</field>
 
             <field name="logo" type="base64" file="l10n_ar_website_sale/static/description/icon.png"/>
             <field name="l10n_mx_edi_fiscal_regime">601</field>
