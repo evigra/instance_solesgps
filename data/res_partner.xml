@@ -79,9 +79,9 @@
             <field name="customer_rank" eval="1"/>
             <field name="child_ids" eval="[(6,0,[
                 ref('partner_michoacana_edgar'),
+                ref('partner_michoacana_lupita'),
                 ref('partner_michoacana_janet')
             ])]"/>
-
         </record>
 
 
