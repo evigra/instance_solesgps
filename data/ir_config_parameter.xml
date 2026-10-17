@@ -22,9 +22,9 @@
         <record id="gpsmap.sync_devices" model="ir.config_parameter">
             <field name="key">gpsmap.sync_devices</field>
             <field name="value" eval="True"/>
-            <!--               
+            <!--   -->                
             <field name="value"></field>
-            --> 
+            
         </record>
 
 

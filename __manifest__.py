@@ -36,7 +36,7 @@ Main Features
         'gpsmap_geofence', 
         'gpsmap_mirror',
         'gpsmap_company', 
-        #'gpsmap_website',
+        'gpsmap_website',
         #'gpsmap_taecel', 
         #'account',
         #'l10n_mx',  
