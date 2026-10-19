@@ -160,6 +160,7 @@
           <field name="gps1_id" ref="gps_michoacana03"/>
           <field name="speed">100</field>
           <field name="image_vehicle">moto</field>
+          <field name="color_vehicle">#ff0000</field>
           <field name="customer_id" ref="partner_michoacana"/>
           
           <field name="manager_id" ref="instance_solesgps.user_michoacana_lupita" />
